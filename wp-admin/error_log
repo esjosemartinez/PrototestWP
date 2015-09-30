@@ -1,0 +1,1 @@
+[28-Sep-2015 16:51:44 UTC] PHP Warning:  fileperms(): stat failed for /home/jbit/public_html/sd/prototest/index.php in /home/jbit/public_html/sd/prototest/wp-admin/includes/file.php on line 891
