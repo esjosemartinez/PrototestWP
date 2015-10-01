@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
 	<head>
-		<title>Home</title>
+		<title>Prototest TV</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -33,11 +33,11 @@ and open the template in the editor.
 
 						<ul>
 							<li class="logo"><a href="#">VIVO</a></li>   
-							<li><a href="cine.html">Cine</a></li>      
-							<li><a href="cine.html">Series</a></li>
-							<li><a href="cine.html">Deportes</a></li>
-							<li><a href="cine.html">Infantil</a></li>
-							<li><a href="cine.html">...</a></li>
+							<li><a href="/peliculas">Cine</a></li>      
+							<li><a href="/series">Series</a></li>
+							<li><a href="/peliculas">Deportes</a></li>
+							<li><a href="/peliculas">Infantil</a></li>
+							<li><a href="/peliculas">...</a></li>
 							<li class="search right"><a href="#">Search</a></li>
 							<li class="my-content right"><a href="#">My Content</a></li>
 						</ul>

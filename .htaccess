@@ -2,10 +2,10 @@
 
 RewriteEngine On
 
+RewriteRule ^images/(.*)_([0-9]+)_([0-9]+)_([0-9]+)\.(jpg|jpeg|png|gif)$ img.php?src=http://prototest.jbit.es/wp-content/uploads/$1.$5&w=$2&h=$3&zc=$4 [NC,L]
+
 RewriteBase /
 RewriteRule ^index\.php$ - [L]
-
-RewriteRule ([^\?]+)\.(jpg|png|jpeg)\&(.+)$ /img.php?src=$1.$2&$3&trm=thumb [L,NC]
 
 RewriteRule ^theme/(.*)		/wp-content/themes/go3/$1 [QSA,L]
 
@@ -15,3 +15,15 @@ RewriteRule . /index.php [L]
 
 </IfModule>
 
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

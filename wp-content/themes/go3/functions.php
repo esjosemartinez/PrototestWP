@@ -23,11 +23,11 @@ add_theme_support('post-thumbnails');
 function is_tree($pid) {      // $pid = The ID of the page we're looking for pages underneath
     global $post;         // load details about this page
     $anc = get_post_ancestors( $post->ID );
-    foreach($anc as $ancestor) {
-        if(is_page() && $ancestor == $pid) {
+    foreach($anc as $ancestor):
+        if(is_page() && $ancestor == $pid):
             return true;
-        }
-    }
+        endif;
+    endforeach;
     if(is_page()&&(is_page($pid))) 
     return true;   // we're at the page or at a sub page
     else 
@@ -49,9 +49,37 @@ function custom_get_attachments($ids){
 	$results = $wpdb->get_results($query);
 	return $results;
 }
-
-
-
-
+function cached_image($imgurl,$width,$height,$zc){
+	$p = parse_url($imgurl);
+	$e = explode('/',$p["path"]);
+	$c = count($e)-1;
+	$a = 0;
+	$v = 3;
+	while($a <= $c):
+		if($a >= $v):
+			$t .= $e[$a];
+		endif;
+		$a++;
+		if($a > $v && $a <= $c):
+			$t .= '/';
+		endif;
+	endwhile;
+	$str = split_image_url($t);
+	return '/images/'.$str[0].'_'.$width.'_'.$height.'_'.$zc.'.'.$str[1];
+}
+function split_image_url($imgurl){
+	$s = explode('.',$imgurl);
+	$c = count($s)-1;
+	$a = 0;
+	while($a < $c):
+		$t .= $s[$a];
+		$a++;
+		if($a < $c):
+			$t .= '.';
+		endif;
+	endwhile;
+	$str = Array($t,$s[$a]);
+	return $str;
+}
 
 ?>
