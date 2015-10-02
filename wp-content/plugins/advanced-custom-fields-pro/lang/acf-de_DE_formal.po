@@ -796,8 +796,8 @@ msgid ""
 "No fields. Click the <strong>+ Add Field</strong> button to create your "
 "first field."
 msgstr ""
-"Es sind noch keine Felder angelegt. Klicke den <strong>+ Feld hinzufügen-"
-"Button</strong> und erstelle Dein erstes Feld."
+"Es sind noch keine Felder angelegt. Klicken Sie den <strong>+ Feld "
+"hinzufügen-Button</strong> und erstellen Sie Ihr erstes Feld."
 
 # @ acf
 #: admin/views/field-group-fields.php:51
@@ -1121,8 +1121,8 @@ msgid ""
 "Thank you for updating! ACF %s is bigger and better than ever before. We "
 "hope you like it."
 msgstr ""
-"Danke fürs Aktualisieren! ACF %s ist besser denn je. Wir hoffen es wird Dir "
-"genauso gut gefallen wie uns."
+"Danke fürs Aktualisieren! ACF %s ist besser denn je. Wir hoffen es wird "
+"Ihnen genauso gut gefallen wie uns."
 
 # @ acf
 #: admin/views/settings-info.php:23
@@ -1196,7 +1196,7 @@ msgid ""
 "We're changing the way premium functionality is delivered in an exciting way!"
 msgstr ""
 "Wir haben die Art und Weise mit der die Premium-Funktionalität zur Verfügung "
-"gestellt wird geändert - das \"wie\" dürfte Dich begeistern!"
+"gestellt wird geändert - das \"wie\" dürfte Sie begeistern!"
 
 # @ acf
 #: admin/views/settings-info.php:52
@@ -1231,7 +1231,7 @@ msgstr ""
 #: admin/views/settings-info.php:58
 #, php-format
 msgid "Read more about <a href=\"%s\">ACF PRO features</a>."
-msgstr "Lies mehr über die <a href=\"%s\">ACF PRO Funktionen</a>."
+msgstr "Lesen Sie mehr über die <a href=\"%s\">ACF PRO Funktionen</a>."
 
 # @ acf
 #: admin/views/settings-info.php:62
@@ -1246,8 +1246,8 @@ msgid ""
 "and claim a free copy of ACF PRO!"
 msgstr ""
 "Wir haben den Aktualisierungsprozess so einfach wie möglich gehalten; <a "
-"href=\"%s\">melde  Dich mit Deinem Store-Account an</a> und fordere ein "
-"Gratisexemplar von ACF PRO an!"
+"href=\"%s\">melden Sie sich mit Ihrem Store-Account an</a> und fordern Sie "
+"ein Gratisexemplar von ACF PRO an!"
 
 # @ acf
 #: admin/views/settings-info.php:64
@@ -1259,8 +1259,8 @@ msgid ""
 msgstr ""
 "Um möglichen Fragen vorzubeugen haben wir haben eine <a href=\"%s\"> "
 "Anleitung für den Aktualisierungs-Prozess (Engl.)</a> verfasst. Sollten "
-"dennoch Fragen aufgeworfen werden, kontaktiere bitte unser <a href=\"%s\"> "
-"Support-Team </a>."
+"dennoch Fragen aufgeworfen werden, kontaktieren Sie bitte unser <a href=\"%s"
+"\"> Support-Team </a>."
 
 # @ acf
 #: admin/views/settings-info.php:72
@@ -1446,7 +1446,7 @@ msgstr ""
 #: admin/views/settings-info.php:165
 #, php-format
 msgid "We think you'll love the changes in %s."
-msgstr "Wir glauben Du wirst die Änderungen in %s lieben."
+msgstr "Wir glauben Sie werden die Änderungen in %s lieben."
 
 # @ acf
 #: admin/views/settings-tools-export.php:13
@@ -1465,8 +1465,8 @@ msgstr ""
 "Der nachfolgende Code kann dazu verwendet werden eine lokale Version der "
 "ausgewählten Feld-Gruppe(n) zu registrieren. Eine lokale Feld-Gruppe bietet "
 "viele Vorteile; schnellere Ladezeiten, Versionskontrolle sowie dynamische "
-"Felder und Einstellungen. Kopiere einfach folgenden Code und füge ihn in die "
-"functions.php oder eine externe Datei in Deinem Theme ein."
+"Felder und Einstellungen. Kopieren Sie einfach folgenden Code und füge ihn "
+"in die functions.php oder eine externe Datei in Ihrem Theme ein."
 
 # @ acf
 #: admin/views/settings-tools.php:5
@@ -1486,12 +1486,12 @@ msgid ""
 "import to another ACF installation. Use the generate button to export to PHP "
 "code which you can place in your theme."
 msgstr ""
-"Entscheide zuerst welche Felder-Gruppen Du exportieren möchtest und wähle im "
-"Anschluss das Format in das exportiert werden soll. Klicke den \"JSON-Datei "
-"exportieren\"-Button, um eine JSON-Datei zu erhalten, welche Du dann in "
-"einer anderen ACF-Installation importieren kannst. Wähle den \"Erstelle PHP-"
-"Code\"-Button, um PHP-Code zu erhalten, den Du im Anschluss in der functions."
-"php Deines Themes einfügen kannst."
+"Entscheiden Sie zuerst welche Felder-Gruppen Sie exportieren möchten und "
+"wählen im Anschluss das Format in das exportiert werden soll. Klicken Sie "
+"den \"JSON-Datei exportieren\"-Button, um eine JSON-Datei zu erhalten, "
+"welche Sie dann in einer anderen ACF-Installation importieren können. Wählen "
+"Sie den \"Erstelle PHP-Code\"-Button, um PHP-Code zu erhalten, den Sie im "
+"Anschluss in der functions.php Ihres Themes einfügen können."
 
 # @ acf
 #: admin/views/settings-tools.php:50
@@ -1514,8 +1514,8 @@ msgid ""
 "Select the Advanced Custom Fields JSON file you would like to import. When "
 "you click the import button below, ACF will import the field groups."
 msgstr ""
-"Wähle die Advanced Custom Fields JSON-Datei aus, welche Du importieren "
-"möchtest. Nach dem Klicken des Importieren-Buttons wird ACF die Felder-"
+"Wählen Sie die Advanced Custom Fields JSON-Datei aus, welche Sie importieren "
+"möchten. Nach dem Klicken des Importieren-Buttons wird ACF die Felder-"
 "Gruppen hinzufügen."
 
 # @ acf
@@ -1539,8 +1539,8 @@ msgid ""
 "The following sites require a DB upgrade. Check the ones you want to update "
 "and then click “Upgrade Database”."
 msgstr ""
-"Die folgenden Seiten erfordern eine Datenbank- Aktualisierung. Markiere die "
-"gewünschten Seiten und klicke \\\"Aktualisiere Datenbank\\\"."
+"Die folgenden Seiten erfordern eine Datenbank- Aktualisierung. Markieren Sie "
+"die gewünschten Seiten und klicken \\\"Aktualisiere Datenbank\\\"."
 
 # @ acf
 #: admin/views/update-network.php:19 admin/views/update-network.php:27
@@ -1574,9 +1574,9 @@ msgid ""
 "It is strongly recommended that you backup your database before proceeding. "
 "Are you sure you wish to run the updater now?"
 msgstr ""
-"Es wird dringend dazu angeraten, dass Du Deine Datenbank sicherst, bevor Du "
-"fortfährst. Bist Du sicher, dass Du die Aktualisierung jetzt durchführen "
-"willst?"
+"Es wird dringend dazu angeraten, dass Sie Ihre Datenbank sichern, bevor Sie "
+"fortfahren. Sind Sie sicher, dass Sie die Aktualisierung jetzt durchführen "
+"wollen?"
 
 # @ default
 #: admin/views/update-network.php:157
@@ -1604,7 +1604,7 @@ msgid ""
 "Before you start using the new awesome features, please update your database "
 "to the newest version."
 msgstr ""
-"Bevor Du die tollen neuen Funktionen nutzen kannst muss die Datenbank "
+"Bevor Sie die tollen neuen Funktionen nutzen können muss die Datenbank "
 "aktualisiert werden."
 
 # @ acf
@@ -1801,7 +1801,7 @@ msgstr "Jede Auswahlmöglichkeit in separater Zeile eingeben."
 #: fields/checkbox.php:209 fields/radio.php:194 fields/select.php:389
 msgid "For more control, you may specify both a value and label like this:"
 msgstr ""
-"Für eine bessere Darstellung, kannst Du auch einen Wert und dazu dessen "
+"Für eine bessere Darstellung, können Sie auch einen Wert und dazu dessen "
 "Beschriftung definieren:"
 
 # @ acf
@@ -2218,8 +2218,8 @@ msgstr "Nachricht"
 #: fields/message.php:104
 msgid "Please note that all text will first be passed through the wp function "
 msgstr ""
-"Bitte beachte, dass der gesamte Text zuerst durch eine WordPress Funktion "
-"gefiltert wird. Siehe: "
+"Bitte beachten Sie, dass der gesamte Text zuerst durch eine WordPress "
+"Funktion gefiltert wird. Siehe: "
 
 # @ acf
 #: fields/message.php:112
@@ -2803,7 +2803,8 @@ msgstr ""
 #: pro/admin/settings-updates.php:267 pro/admin/settings-updates.php:338
 msgid "<b>Connection Error</b>. Sorry, please try again"
 msgstr ""
-"<b>Verbindungsfehler</b>. Entschuldige, versuche es bitte später noch einmal"
+"<b>Verbindungsfehler</b>. Entschuldigung, versuchen Sie es bitte später noch "
+"einmal"
 
 # @ acf
 #: pro/admin/views/options-page.php:48
@@ -2836,9 +2837,9 @@ msgid ""
 "To unlock updates, please enter your license key below. If you don't have a "
 "licence key, please see"
 msgstr ""
-"Um die Aktualisierungs-Fähigkeit freizuschalten, trage bitte Deinen "
-"Lizenzschlüssel im darunterliegenden Feld ein. Solltest Du noch keinen "
-"Lizenzschlüssel besitzen, informiere Dich bitte hier über die"
+"Um die Aktualisierungs-Fähigkeit freizuschalten, tragen Sie bitte Ihren "
+"Lizenzschlüssel im darunterliegenden Feld ein. Sollten Sie noch keinen "
+"Lizenzschlüssel besitzen, informieren Sie sich bitte hier über die"
 
 # @ acf
 #: pro/admin/views/settings-updates.php:24
@@ -2879,7 +2880,7 @@ msgstr "Plugin aktualisieren"
 #: pro/admin/views/settings-updates.php:98
 msgid "Please enter your license key above to unlock updates"
 msgstr ""
-"Bitte gib oben Deinen Lizenzschlüssel ein um die Update-Fähigkeit "
+"Bitte geben Sie oben Ihren Lizenzschlüssel ein um die Update-Fähigkeit "
 "freizuschalten"
 
 # @ acf
@@ -2905,10 +2906,10 @@ msgid ""
 "\">Updates</a> page. If you don't have a licence key, please see <a href=\"%s"
 "\">details & pricing</a>"
 msgstr ""
-"Um die Aktualisierungen freizuschalten, trage bitte Deinen Lizenzschlüssel "
-"auf der <a href=\"%s\">Aktualisierungen</a>-Seite ein. Solltest Du noch "
-"keinen Lizenzschlüssel besitzen, informiere Dich bitte hier über die <a href="
-"\"%s\">Details und Preise</a>"
+"Um die Aktualisierungen freizuschalten, tragen Sie bitte Ihren "
+"Lizenzschlüssel auf der <a href=\"%s\">Aktualisierungen</a>-Seite ein. "
+"Sollten Sie noch keinen Lizenzschlüssel besitzen, informieren Sie sich bitte "
+"hier über die <a href=\"%s\">Details und Preise</a>"
 
 # @ acf
 #: pro/fields/flexible-content.php:36
