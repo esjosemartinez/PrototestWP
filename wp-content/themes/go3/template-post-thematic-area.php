@@ -8,7 +8,7 @@
 					</div>
 				</div>
 				<div class="section-container">
-					<ul class="shows">
+					<ul id="thematicarea-list" class="shows">
 
 <?php $args = array(
 	'posts_per_page'   => 150,
@@ -24,7 +24,7 @@ foreach ( $myposts as $post ) : setup_postdata( $post );
 	$genres = get_field('genres');
 ?>
 
-						<li class="show vod">
+						<li class="show vod" data-duration="<?php the_field('duration'); ?>">
 							<img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 116, 172, 3); ?>" alt="<?php the_title(); ?>" >
 							<div class="info">
 								<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
