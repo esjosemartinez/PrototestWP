@@ -14,6 +14,7 @@ and open the template in the editor.
 		<script src="theme/js/vendor/less.js"></script>
 		<script src="theme/js/vendor/jquery-2.1.1.min.js" type="text/javascript"></script>
 		<script src="theme/js/vendor/tinysort.min.js" type="text/javascript"></script>
+		<script src="theme/js/vendor/scrollbar.js" type="text/javascript"></script>
 		<script src="theme/js/vendor/tinysort.charorder.min.js" type="text/javascript"></script>
 		<script src="theme/js/scripts.js" type="text/javascript"></script>
 	</head>
