@@ -38,14 +38,36 @@ and open the template in the editor.
 					<nav class="primary-nav nav">
 
 						<ul>
-							<li class="logo"><a href="#">VIVO</a></li>   
+							<li class="logo"><a href="#">VIVO</a></li>
 							<li><a href="/peliculas">Cine</a></li>      
 							<li><a href="/series">Series</a></li>
 							<li><a href="/peliculas">Deportes</a></li>
 							<li><a href="/peliculas">Infantil</a></li>
-							<li><a href="/peliculas">...</a></li>
-							<li class="search right"><a href="#">Search</a></li>
-							<li class="my-content right"><a href="#">My Content</a></li>
+							<li class="more"><a href="#">&nbsp;</a>
+								<ul class="submenu">
+									<li><a href="#">Adultos</a></li>
+									<li><a href="#">Documentales</a></li>
+									<li><a href="#">Música</a></li>
+									<li class="renting"><a href="#">Taquilla</a></li>
+								</ul>
+							</li>
+							<li class="search right"><form> <input type="text"/></form></li>
+							<li class="my-content right"><a href="mis_contenidos.html">My Content</a>
+								<ul class="submenu">
+									<li><a href="#">Mis alquilados</a></li>
+									<li><a href="#">Lo quiero ver</a></li>
+									<li><a href="#">Vistos</a></li>
+									<li><a href="#">Siguiendo</a></li>
+									<li><a href="#">Grab. disponibles</a></li>
+									<li><a href="#">Grab. programadas</a></li>
+								</ul>
+							</li>
+							<li class="tv-guide right"><a href="#">Guía TV</a>
+								<ul class="submenu">
+									<li><a href="#">En Directo</a></li>
+									<li><a href="#">Toda la programación</a></li>
+								</ul>
+							</li>
 						</ul>
 					</nav>
 				</div>
