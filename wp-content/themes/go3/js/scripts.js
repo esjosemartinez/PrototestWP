@@ -19,7 +19,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		body.toggleClass('filters-open');
 		overlayer.fadeToggle(300);
-		dropdpown.slideToggle(300);
+		dropdpown.fadeToggle(300);
 		fadeElements.fadeToggle();
 		scrollElement.animate({ scrollTop: 0 }, 300);
 	});
