@@ -38,7 +38,7 @@ and open the template in the editor.
 					<nav class="primary-nav nav">
 
 						<ul>
-							<li class="logo"><a href="#">VIVO</a></li>
+							<li class="logo"><a href="http://prototest.jbit.es/">VIVO</a></li>
 							<li><a href="/peliculas">Cine</a></li>      
 							<li><a href="/series">Series</a></li>
 							<li><a href="/peliculas">Deportes</a></li>
@@ -51,7 +51,7 @@ and open the template in the editor.
 									<li class="renting"><a href="#">Taquilla</a></li>
 								</ul>
 							</li>
-							<li class="search right"><form> <input type="text"/></form></li>
+							<li class="search right"><form> <input type="text"  placeholder="Buscar en Vivo"/><span class="btn-close"></span></form></li>
 							<li class="my-content right"><a href="mis_contenidos.html">My Content</a>
 								<ul class="submenu">
 									<li><a href="#">Mis alquilados</a></li>
