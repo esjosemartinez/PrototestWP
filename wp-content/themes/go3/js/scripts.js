@@ -9,6 +9,7 @@ $(document).ready(function() {
 	});
 
 	/* FILTERS DROPDOWN */
+	var button = $('.filters-button');
 	var dropdpown = $('.filters-dropdown');
 	var overlayer = $('.overlayer');
 	var fadeElements = $('.filters-col,.filters-submit-area');

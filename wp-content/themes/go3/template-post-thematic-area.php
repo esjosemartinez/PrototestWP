@@ -73,7 +73,7 @@ wp_reset_postdata();
 				?>
 
 				<li class="show vod" data-duration="<?php the_field('duration'); ?>">
-					<img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 116, 172, 3); ?>" alt="<?php the_title(); ?>" >
+					<img class="cover" src="<?php echo ''.cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 116, 172, 3); ?>" alt="<?php the_title(); ?>" >
 					<div class="info">
 						<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 						<span class="duration"><?php the_field('duration'); ?>m</span><br>
