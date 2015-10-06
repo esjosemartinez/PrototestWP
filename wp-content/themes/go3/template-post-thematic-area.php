@@ -1,4 +1,4 @@
-<div class="overlayer"></div>
+
 <div class="content">
 	<div class="filters">
 		<span class="breadcrumb">Películas: Catálogo, Todos los géneros, Mas relevante (480)</span>
