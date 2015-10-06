@@ -10,15 +10,22 @@ and open the template in the editor.
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet/less" href="theme/less/style.less">
-		<script src="theme/js/vendor/less.js"></script>
-		<script src="theme/js/vendor/jquery-2.1.1.min.js" type="text/javascript"></script>
-		<script src="theme/js/vendor/tinysort.min.js" type="text/javascript"></script>
-		<script src="theme/js/vendor/scrollbar.js" type="text/javascript"></script>
-		<script src="theme/js/vendor/tinysort.charorder.min.js" type="text/javascript"></script>
-		<script src="theme/js/scripts.js" type="text/javascript"></script>
-		<script src="theme/js/custom.js" type="text/javascript"></script>
+		<link rel="stylesheet/less" href="/theme/less/style.less">
+		<script src="/theme/js/vendor/less.js"></script>
+		<script src="/theme/js/vendor/jquery-2.1.1.min.js" type="text/javascript"></script>
+		<script src="/theme/js/vendor/tinysort.min.js" type="text/javascript"></script>
+		<script src="/theme/js/vendor/scrollbar.js" type="text/javascript"></script>
+		<script src="/theme/js/vendor/tinysort.charorder.min.js" type="text/javascript"></script>
+		<script src="/theme/js/scripts.js" type="text/javascript"></script>
+		<script src="/theme/js/custom.js" type="text/javascript"></script>
 	</head>
+
+<?php if(is_page(1770)): ?>
+	<body class="page-my-content">
+<?php elseif(get_post_type() == 'pt_films' && is_single() ):?>	
+	<body class="detail-page">
+<?php endif; ?>
+		
 	<body>
 		<div class="overlayer"></div>
 		<div id="container">
@@ -52,7 +59,7 @@ and open the template in the editor.
 								</ul>
 							</li>
 							<li class="search right"><form> <input type="text"  placeholder="Buscar en Vivo"/><span class="btn-close"></span></form></li>
-							<li class="my-content right"><a href="mis_contenidos.html">My Content</a>
+							<li class="my-content right"><a href="/mis-contenidos">My Content</a>
 								<ul class="submenu">
 									<li><a href="#">Mis alquilados</a></li>
 									<li><a href="#">Lo quiero ver</a></li>

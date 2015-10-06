@@ -2,30 +2,25 @@
 
 				<section class="thematic-area cine-area">
 					<div class="thematic-info">
-						<a class="thematic-link" href="/peliculas">
-							<strong class="thematic-title">Cine</strong>
-							<span class="thematic-slogan">El mejor cine ya a tu alcance</span>
-							<span class="link">Ir a Cine</span>
+						<a class="flexbox">
+							<h1 class="thematic-title">Cine</h1>
+							<p class="thematic-slogan">El mejor cine ya a tu alcance</p>
+							<a class="link">Ir a Cine</a>
 						</a>
 					</div>
 					<div class="thematic-content">
 						<div class="cover big">
 							<img src="theme/images/covers/areas/ta_edit_big_birdman.png" alt="Birdman">
 						</div>
-						<div class="cover smalls">
-							<a href="/peliculas/interstellar">
-								<img src="theme/images/covers/areas/ta_edit_cine_interstellar.png" alt="Interstellar">
-							</a>
-						</div>
 					</div>
 				</section>
 				<section class="thematic-area series-area no-editor">
 					<div class="thematic-info">
-						<a class="thematic-link" href="/series">
+						<div class="flexbox">
 							<h1 class="thematic-title">Series</h1>
 							<p class="thematic-slogan">Disfruta de las últimas temporadas de tus series preferidas</p>
-							<span class="link">Ir a series</span>
-						</a>
+							<a class="link">Ir a series</a>
+						</div>
 					</div>
 					<div class="thematic-content">
 						<div class="cover big">
@@ -36,11 +31,11 @@
 
 				<section class="thematic-area sport-area">
 					<div class="thematic-info">
-						<a class="thematic-link" href="/peliculas">
+						<div class="flexbox">
 							<h1 class="thematic-title">Deportes</h1>
 							<p class="thematic-slogan">Todos tus deportes favoritos</p>
-							<span class="link">Ir a Deportes</span>
-						</a>
+							<a class="link">Ir a Deportes</a>
+						</div>
 					</div>
 					<div class="thematic-content">
 						<div class="cover big">
@@ -51,11 +46,11 @@
 
 				<section class="thematic-area kids-area">
 					<div class="thematic-info">
-						<a class="thematic-link" href="/peliculas">
+						<div class="flexbox">
 							<h1 class="thematic-title">Infantil</h1>
 							<p class="thematic-slogan">Horas de entretenimiento para los más peques</p>
-							<span class="link">Ir a Infantil</span>
-						</a>
+							<a class="link">Ir a Infantil</a>
+						</div>
 					</div>
 					<div class="thematic-content">
 						<div class="cover big">
@@ -66,12 +61,12 @@
 
 				<section class="thematic-area renting">
 					<div class="thematic-info">
-						<a class="thematic-link" href="/peliculas">
+						<div class="flexbox">
 							<img src="theme/images/icon_ticket.png" alt="icon ticket"/>
 							<h1 class="thematic-title">Taquilla</h1>
 							<p class="thematic-slogan">Contenidos especialmente seleccionados para ti</p>
-							<span class="link">Ir a Taquilla</span>
-						</a>
+							<a class="link">Ir a Taquilla</a>
+						</div>
 					</div>
 					<div class="thematic-content">
 						<div class="cover big">
