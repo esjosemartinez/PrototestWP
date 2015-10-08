@@ -5,19 +5,20 @@
 
 		<div class="filters-area">
 			<a href="#" class="filters-button" title="Filtra aquí los contenidos según tus preferencias"><span>Filtrar</span><i class="check-icon">&nbsp;</i></a>
-			<div class="filters-dropdown">
+			<div class="filters-dropdown" data-origin="-1" data-genre="-1" data-sort="rel">
 				<div class="filters-col">
 					<div class="filters-col-tit">Tipo de contenido</div>
 					<ul class="filters-col-box">
-						<li class="filters-col-li"><a href="#" class="filters-option filters-option-type active" data-type="1"><i class="check-icon">○</i> Catálogo</a></li>
-						<li class="filters-col-li"><a href="#" class="filters-option filters-option-type" data-type="2"><i class="check-icon">○</i> Televisión</a></li>
+						<li class="filters-col-li"><a href="#" class="filters-option filters-option-origin active" data-origin="-1"><i class="check-icon">○</i> Todo</a></li>
+						<li class="filters-col-li"><a href="#" class="filters-option filters-option-origin" data-origin="0"><i class="check-icon">○</i> Catálogo</a></li>
+						<li class="filters-col-li"><a href="#" class="filters-option filters-option-origin" data-origin="1"><i class="check-icon">○</i> Televisión</a></li>
 					</ul>
 				</div>
 				<div class="filters-col filters-col-x2">
 					<div class="filters-col-tit">Género</div>
 					<div class="filters-col-box-scrollarea">
 						<ul class="filters-col-box" id="scrollbox">
-						<li class="filters-col-li"><a href="#" class="filters-option filters-option-genre active"><i class="check-icon">○</i> Todos los géneros</a></li>
+						<li class="filters-col-li"><a href="#" class="filters-option filters-option-genre active" data-genre="-1"><i class="check-icon">○</i> Todos los géneros</a></li>
 
 							<?php 
 $args = array(
@@ -30,9 +31,11 @@ $args = array(
 	'suppress_filters' => 0);
 $filtergenres = get_posts($args);
 foreach ($filtergenres as $filtergenre) : setup_postdata($filtergenre);
+if(count_items_by_genre(get_post_type(),$filtergenre->ID)):
 ?>
-							<li class="filters-col-li"><a href="#" class="filters-option filters-option-genre" data-genre="<?php echo $filtergenre->ID; ?>"><i class="check-icon">○</i> <?php echo get_the_title($filtergenre->ID); ?></a></a></li>
+						<li class="filters-col-li"><a href="#" class="filters-option filters-option-genre" data-genre="<?php echo $filtergenre->ID; ?>"><i class="check-icon">○</i> <?php echo get_the_title($filtergenre->ID); ?></a></a></li>
 <?php
+endif;
 endforeach;
 wp_reset_postdata();
 ?>
@@ -72,7 +75,14 @@ wp_reset_postdata();
 				$genres = get_field('genres');
 				?>
 
-				<li class="show vod" data-duration="<?php the_field('duration'); ?>">
+				<li class="show vod" 
+					data-origin="<?php the_field('origin'); ?>" 
+					data-popularity="<?php the_field('popularity'); ?>" 
+					data-title="<?php the_title(); ?>" 
+					data-genres="<?php echo get_media_genres_ids($genres); ?>" 
+					data-date="<?php the_date('Y-m-d-H-i-s'); ?>" 
+					data-duration="<?php the_field('duration'); ?>" 
+					>
 					<img class="cover" src="<?php echo ''.cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 116, 172, 3); ?>" alt="<?php the_title(); ?>" >
 					<div class="info">
 						<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>

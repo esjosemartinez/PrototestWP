@@ -1,4 +1,9 @@
-<?php 
+<?php
+
+header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
+header("Pragma: no-cache"); // HTTP 1.0.
+header("Expires: 0"); // Proxies.
+
 
 // FUNCIONES 
 remove_action('wp_head', 'wp_generator');
@@ -81,5 +86,30 @@ function split_image_url($imgurl){
 	$str = Array($t,$s[$a]);
 	return $str;
 }
-
+function count_items_by_genre($ptype,$genre){
+	$posts = get_posts(array(
+		'numberposts'	=> -1,
+		'post_type'		=> $ptype,
+		'meta_query' => array(
+			array(
+				'key' => 'genres',
+				'value' => '"'.$genre.'"',
+				'compare' => 'LIKE'
+			)
+		)
+	));
+	return count($posts);
+}
+function get_media_genres_ids($genres) {
+	$c = count($genres) - 1;
+	$a = 0;
+	foreach ($genres as $genre):
+		$str .= $genre->ID;
+		if ($a < $c):
+			$str .= ' ';
+		endif;
+		$a++;
+	endforeach;
+	return $str;
+}
 ?>
