@@ -65,7 +65,6 @@ $(document).ready(function() {
 		filterOriginTmp = filterOrigin;
 		filterGenreTmp = filterGenre;
 		filterSortTmp = filterSort;
-		console.log('>> ' + filterSort);
 	});
 
 	$('.filters-submit-reset').on('click', function(event){
@@ -85,7 +84,24 @@ $(document).ready(function() {
 	$('.filters-submit-send').on('click', function(event){
 		event.preventDefault();
 		body.removeClass('filters-open');
-		
+
+		if(filterSort == 'rel'){
+			$('ul#thematicarea-list>li').fadeOut(300, function() {
+				tinysort('ul#thematicarea-list>li',{attr:'data-popularity',order:'desc'});
+				$('ul#thematicarea-list>li').fadeIn(200);
+			});
+		}else if(filterSort == 'date'){
+			$('ul#thematicarea-list>li').fadeOut(300, function() {
+				tinysort('ul#thematicarea-list>li',{attr:'data-date'});
+				$('ul#thematicarea-list>li').fadeIn(200);
+			});
+		}else if(filterSort == 'az'){
+			$('ul#thematicarea-list>li').fadeOut(300, function() {
+				tinysort('ul#thematicarea-list>li',{attr:'data-title'});
+				$('ul#thematicarea-list>li').fadeIn(200);
+			});
+		}
+
 		overlayer.fadeOut(300);
 		dropdpown.fadeOut(300);
 		scrollElement.animate({ scrollTop: 0 }, 300);

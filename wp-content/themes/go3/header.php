@@ -24,10 +24,13 @@ and open the template in the editor.
 	<body class="page-my-content">
 <?php elseif(get_post_type() == 'pt_films' && is_single() ):?>	
 	<body class="detail-page">
+<<<<<<< HEAD
 <?php elseif(get_post_type() == 'pt_tvseries' && is_single() ):?>	
 	<body class="detail-page detail-page-series">
 <?php elseif(is_page(1773) || is_page(1775) ):?>	
 	<body class="page-tv-guide">
+=======
+>>>>>>> ca56d1edad95d90fc3bc1e68c6201c132f8ec2e4
 <?php endif; ?>
 		
 	<body>

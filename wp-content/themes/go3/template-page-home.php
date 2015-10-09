@@ -23,6 +23,11 @@
 								<img src="theme/images/covers/areas/ta_edit_cine_interstellar.png" alt="Interstellar">
 							</a>
 						</div>
+						<div class="cover smalls">
+							<a href="/peliculas/interstellar">
+								<img src="theme/images/covers/areas/ta_edit_cine_interstellar.png" alt="Interstellar">
+							</a>
+						</div>
 					</div>
 				</section>
 				<section class="thematic-area series-area no-editor">
