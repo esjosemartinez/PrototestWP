@@ -7,7 +7,10 @@ $(document).ready(function() {
 			$('ul#thematicarea-list>li').fadeIn(200);
 		});
 	});
-	
+
+	tinysort('ul#thematicarea-list>li',{attr:'data-popularity',order:'desc'});
+	tinysort('ul#thematicarea-list>li',{attr:'data-popularity',order:'desc'});
+
 	/* FILTERS DROPDOWN CHECKBOXES ACTIVATION (only one genre) */
 	filterDataElement = $('.filters-dropdown');
 	filterDataElementOrigin = $('.filters-option-origin');
@@ -44,7 +47,7 @@ $(document).ready(function() {
 		elementGroup.removeClass('active');
 		activeElement.addClass('active');
 	}
-
+	
 	/* FILTERS DROPDOWN */
 	var button = $('.filters-button');
 	var dropdpown = $('.filters-dropdown');
@@ -84,24 +87,27 @@ $(document).ready(function() {
 	$('.filters-submit-send').on('click', function(event){
 		event.preventDefault();
 		body.removeClass('filters-open');
-
-		if(filterSort == 'rel'){
-			$('ul#thematicarea-list>li').fadeOut(300, function() {
+		$('ul#thematicarea-list>li').fadeOut(300, function() {
+			// GENRE
+			if(filterGenreTmp != '-1'){
+				$('ul.shows li.show').addClass('option-hidden').removeClass('option-visible');
+				$('ul.shows li.show.genre_'+filterGenreTmp).removeClass('option-hidden').addClass('option-visible');
+			}
+			// SORT
+			if(filterSortTmp == 'rel'){
 				tinysort('ul#thematicarea-list>li',{attr:'data-popularity',order:'desc'});
 				$('ul#thematicarea-list>li').fadeIn(200);
-			});
-		}else if(filterSort == 'date'){
-			$('ul#thematicarea-list>li').fadeOut(300, function() {
+			}
+			else if(filterSortTmp == 'date'){
 				tinysort('ul#thematicarea-list>li',{attr:'data-date'});
 				$('ul#thematicarea-list>li').fadeIn(200);
-			});
-		}else if(filterSort == 'az'){
-			$('ul#thematicarea-list>li').fadeOut(300, function() {
+			}
+			else if(filterSortTmp == 'az'){
 				tinysort('ul#thematicarea-list>li',{attr:'data-title'});
-				$('ul#thematicarea-list>li').fadeIn(200);
-			});
-		}
-
+				
+			}
+			$('ul#thematicarea-list>li').fadeIn(200);
+		});
 		overlayer.fadeOut(300);
 		dropdpown.fadeOut(300);
 		scrollElement.animate({ scrollTop: 0 }, 300);

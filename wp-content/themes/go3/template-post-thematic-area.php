@@ -75,12 +75,12 @@ wp_reset_postdata();
 				$genres = get_field('genres');
 				?>
 
-				<li class="show vod" 
+				<li class="show vod option-visible <?php echo get_media_genres_class($genres); ?>" 
 					data-origin="<?php the_field('origin'); ?>" 
 					data-popularity="<?php the_field('popularity'); ?>" 
 					data-title="<?php the_title(); ?>" 
 					data-genres="<?php echo get_media_genres_ids($genres); ?>" 
-					data-date="<?php the_date('Y-m-d-H-i-s'); ?>" 
+					data-date="<?php echo get_the_date("Y-m-d-H-i-s"); ?>" 
 					data-duration="<?php the_field('duration'); ?>" 
 					>
 					<img class="cover" src="<?php echo ''.cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 116, 172, 3); ?>" alt="<?php the_title(); ?>" >
