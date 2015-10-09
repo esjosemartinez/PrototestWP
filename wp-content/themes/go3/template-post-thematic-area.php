@@ -9,7 +9,7 @@
 				<div class="filters-col">
 					<div class="filters-col-tit">Tipo de contenido</div>
 					<ul class="filters-col-box">
-						<li class="filters-col-li"><a href="#" class="filters-option filters-option-origin active" data-origin="-1"><i class="check-icon">○</i> Todo</a></li>
+						<li class="filters-col-li"><a href="#" class="filters-option filters-option-origin active" data-origin="-1"><i class="check-icon">●</i> Todo</a></li>
 						<li class="filters-col-li"><a href="#" class="filters-option filters-option-origin" data-origin="0"><i class="check-icon">○</i> Catálogo</a></li>
 						<li class="filters-col-li"><a href="#" class="filters-option filters-option-origin" data-origin="1"><i class="check-icon">○</i> Televisión</a></li>
 					</ul>
@@ -18,7 +18,7 @@
 					<div class="filters-col-tit">Género</div>
 					<div class="filters-col-box-scrollarea">
 						<ul class="filters-col-box" id="scrollbox">
-						<li class="filters-col-li"><a href="#" class="filters-option filters-option-genre active" data-genre="-1"><i class="check-icon">○</i> Todos los géneros</a></li>
+						<li class="filters-col-li"><a href="#" class="filters-option filters-option-genre active" data-genre="-1"><i class="check-icon">●</i> Todos los géneros</a></li>
 
 							<?php 
 $args = array(
@@ -45,7 +45,7 @@ wp_reset_postdata();
 				<div class="filters-col">
 					<div class="filters-col-tit">Ordenación</div>
 					<ul class="filters-col-box filters-col-box-right">
-						<li class="filters-col-li"><a href="#" class="filters-option filters-option-sort active" data-sort="rel"><i class="check-icon">○</i> Más relevante</a></li>
+						<li class="filters-col-li"><a href="#" class="filters-option filters-option-sort active" data-sort="rel"><i class="check-icon">●</i> Más relevante</a></li>
 						<li class="filters-col-li"><a href="#" class="filters-option filters-option-sort" data-sort="date"><i class="check-icon">○</i> Más reciente</a></li>
 						<li class="filters-col-li"><a href="#" class="filters-option filters-option-sort" data-sort="az"><i class="check-icon">○</i> A - Z</a></li>
 					</ul>

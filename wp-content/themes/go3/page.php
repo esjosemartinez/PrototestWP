@@ -10,7 +10,18 @@ elseif (is_page(12) || is_page(15))
 {
 	get_template_part( 'template', 'page-bio' );
 }
-
+elseif (is_page(1770))
+{
+	get_template_part( 'template', 'page-my-content' );
+}
+elseif (is_page(1773))
+{
+	get_template_part( 'template', 'page-tvguide-live' );
+}
+elseif (is_page(1775))
+{
+	get_template_part( 'template', 'page-tvguide-program' );
+}
 get_footer();
 
 ?>

@@ -35,8 +35,10 @@ $(document).ready(function() {
 	
 	function activate_filter_option(element,elementGroup,data){
 		elementGroup.removeClass('active');
+		elementGroup.children('.check-icon').html('○');
 		filterDataElement.attr(data,element.attr(data));
 		element.addClass('active');
+		element.children('.check-icon').html('●');
 	}
 	function change_filter_selection(activeElement,elementGroup,dataname){
 		elementGroup.removeClass('active');
@@ -73,10 +75,11 @@ $(document).ready(function() {
 		dropdpown.fadeOut(300);
 		scrollElement.animate({ scrollTop: 0 }, 300);
 		// reset to previous filter
-		console.log('>> ' + filterSort);
 		change_filter_selection($('[data-origin='+filterOrigin+']'),filterDataElementOrigin,'origin');
 		change_filter_selection($('[data-genre='+filterGenre+']'),filterDataElementGenre,'genre');
 		change_filter_selection($('[data-sort='+filterSort+']'),filterDataElementSort,'sort');
+		$('.filters-option').children('.check-icon').html('○');
+		$('.filters-option.active').children('.check-icon').html('●');
 	});
 
 	$('.filters-submit-send').on('click', function(event){

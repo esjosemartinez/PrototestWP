@@ -100,9 +100,9 @@ body {
             margin-top: 18px;
 
             .thematic-area {
-                height: 358px;
                 margin: 20px 0;
-
+				overflow: hidden;
+				
                 .thematic-info,
                 .thematic-content {
                     float: left;
@@ -139,6 +139,33 @@ body {
                         }
                     }
                 }
+				.thematic-content {
+					width: 640px;
+					img {
+						float: left;
+					}
+					.cover {
+						display: inline-block;
+						float: left;
+						overflow: hidden;
+						
+					}
+					.big {
+					}
+					small {
+							width: 320px;
+							height : 185px;
+						img {
+						}
+					}
+					.covers {
+						position: relative;
+						left: -320px;
+						height: 180px;
+						width: 960px;
+						float: left;
+					}
+				}
                 &.no-editor,
                 &.renting  {
                     height: 331px;
@@ -150,6 +177,16 @@ body {
 
                         }
                     }
+					
+					.thematic-content {
+						.covers {
+							left: 0;
+							.cover img {
+								height: 331px;
+								width: 213px;
+							}
+						}
+					}
                 }
                 &.renting {
                     .thematic-info {
@@ -598,6 +635,19 @@ body {
 				content:"";			
 				background: url(../images/icon_mycontent_title.png) no-repeat;
 			}
+		}
+	}
+}
+.page-tv-guide {
+	.content {
+		margin: 8px auto;
+	}
+	background: #353535;
+	.content-section {
+		display: block;
+		img {
+			width: 960px;
+			float: left;
 		}
 	}
 }

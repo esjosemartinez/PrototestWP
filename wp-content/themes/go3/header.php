@@ -10,15 +10,26 @@ and open the template in the editor.
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet/less" href="theme/less/style.less">
-		<script src="theme/js/vendor/less.js"></script>
-		<script src="theme/js/vendor/jquery-2.1.1.min.js" type="text/javascript"></script>
-		<script src="theme/js/vendor/tinysort.min.js" type="text/javascript"></script>
-		<script src="theme/js/vendor/scrollbar.js" type="text/javascript"></script>
-		<script src="theme/js/vendor/tinysort.charorder.min.js" type="text/javascript"></script>
-		<script src="theme/js/scripts.js" type="text/javascript"></script>
-		<script src="theme/js/custom.js" type="text/javascript"></script>
+		<link rel="stylesheet/less" href="/theme/less/style.less">
+		<script src="/theme/js/vendor/less.js"></script>
+		<script src="/theme/js/vendor/jquery-2.1.1.min.js" type="text/javascript"></script>
+		<script src="/theme/js/vendor/tinysort.min.js" type="text/javascript"></script>
+		<script src="/theme/js/vendor/scrollbar.js" type="text/javascript"></script>
+		<script src="/theme/js/vendor/tinysort.charorder.min.js" type="text/javascript"></script>
+		<script src="/theme/js/scripts.js" type="text/javascript"></script>
+		<script src="/theme/js/custom.js" type="text/javascript"></script>
 	</head>
+
+<?php if(is_page(1770)): ?>
+	<body class="page-my-content">
+<?php elseif(get_post_type() == 'pt_films' && is_single() ):?>	
+	<body class="detail-page">
+<?php elseif(get_post_type() == 'pt_tvseries' && is_single() ):?>	
+	<body class="detail-page detail-page-series">
+<?php elseif(is_page(1773) || is_page(1775) ):?>	
+	<body class="page-tv-guide">
+<?php endif; ?>
+		
 	<body>
 		<div class="overlayer"></div>
 		<div id="container">
@@ -38,7 +49,7 @@ and open the template in the editor.
 					<nav class="primary-nav nav">
 
 						<ul>
-							<li class="logo"><a href="#">VIVO</a></li>
+							<li class="logo"><a href="http://prototest.jbit.es/">VIVO</a></li>
 							<li><a href="/peliculas">Cine</a></li>      
 							<li><a href="/series">Series</a></li>
 							<li><a href="/peliculas">Deportes</a></li>
@@ -51,8 +62,8 @@ and open the template in the editor.
 									<li class="renting"><a href="#">Taquilla</a></li>
 								</ul>
 							</li>
-							<li class="search right"><form> <input type="text"/></form></li>
-							<li class="my-content right"><a href="mis_contenidos.html">My Content</a>
+							<li class="search right"><form> <input type="text"  placeholder="Buscar en Vivo"/><span class="btn-close"></span></form></li>
+							<li class="my-content right"><a href="/mis-contenidos">My Content</a>
 								<ul class="submenu">
 									<li><a href="#">Mis alquilados</a></li>
 									<li><a href="#">Lo quiero ver</a></li>
@@ -62,10 +73,10 @@ and open the template in the editor.
 									<li><a href="#">Grab. programadas</a></li>
 								</ul>
 							</li>
-							<li class="tv-guide right"><a href="#">Guía TV</a>
+							<li class="tv-guide right"><a href="/guia-tv">Guía TV</a>
 								<ul class="submenu">
-									<li><a href="#">En Directo</a></li>
-									<li><a href="#">Toda la programación</a></li>
+									<li><a href="/guia-tv-en-directo">En Directo</a></li>
+									<li><a href="/guia-tv-programacion">Toda la programación</a></li>
 								</ul>
 							</li>
 						</ul>
