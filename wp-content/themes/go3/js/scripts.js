@@ -93,6 +93,9 @@ $(document).ready(function() {
 				$('ul.shows li.show').addClass('option-hidden').removeClass('option-visible');
 				$('ul.shows li.show.genre_'+filterGenreTmp).removeClass('option-hidden').addClass('option-visible');
 			}
+			else {
+				$('ul.shows li.show').removeClass('option-hidden').addClass('option-visible');
+			}
 			// SORT
 			if(filterSortTmp == 'rel'){
 				tinysort('ul#thematicarea-list>li',{attr:'data-popularity',order:'desc'});
