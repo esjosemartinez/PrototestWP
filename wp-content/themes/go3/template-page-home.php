@@ -98,14 +98,14 @@
 					</div>
 					<div class="thematic-content">
 						<div class="covers">
-							<a class="cover small" href="/peliculas/better-call-saul">
-								<img src="theme/images/covers/vod/BetterCallSaul.jpg" alt="Better Call Saul">
+							<a class="cover small" href="/peliculas/the-maze-runner-the-scorch-trials">
+								<img src="theme/images/covers/vod/TheMazeRunnerScorchTrials.jpg" alt="The Maze Runner - Scorch Trials">
 							</a>
-							<a class="cover small" href="/peliculas/interstellar">
-								<img src="theme/images/covers/vod/BetterCallSaul.png" alt="Interstellar">
+							<a class="cover small" href="/peliculas/inside-out">
+								<img src="theme/images/covers/vod/InsideOut.jpg" alt="Inside Out">
 							</a>
-							<a class="cover small" href="/peliculas/interstellar">
-								<img src="theme/images/covers/vod/BetterCallSaul.png" alt="Interstellar">
+							<a class="cover small" href="/peliculas/antman">
+								<img src="theme/images/covers/vod/Antman.jpg" alt="Ant-Man">
 							</a>
 						</div>
 					</div>
