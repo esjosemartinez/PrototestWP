@@ -511,13 +511,19 @@ body {
                             h1 {
                                 color: #000;   
                                 font-size: 20px;
-                                margin: 33px 0 27px;
+                                margin: 33px 0 10px;
+								a {
+									height: 53px;
+									overflow: hidden;
+									display: inline-block;
+								}
                             }
                             .duration, .genres {
                                 clear: both;
                                 color: #5C5D5D;
                                 font-size: 14px;
-                                line-height: 13px;
+                                line-height: 17px;
+								display: inline-block;
                             }
                         }
 
@@ -539,6 +545,11 @@ body {
                                 font-size: 21px;
                                 margin: 0;
                                 padding:  0 0 0 10px;
+								a {
+									color: #fff;
+								text-rendering: optimizeLegibility !important;
+								-webkit-font-smoothing: antialiased !important;
+								}
                             }
                             .time {
                                 font-size: 15px;
@@ -824,3 +835,20 @@ body {
 	}
 }
 
+.channel-page-content {
+	.header {
+		background: #1a1a1a;
+		height: 153px;
+		margin-top: 36px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.channel-logo {
+			margin-left: 36px;
+		}
+		h1 {
+			float: right;
+			padding-right: 33px;
+		}
+	}
+}
