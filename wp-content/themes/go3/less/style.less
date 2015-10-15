@@ -1,6 +1,7 @@
 @import "filters.less";
 @import "tabs.less";
 @import "menu.less";
+@import "scrollbar.less";
 
 @article_width: 240px;
 @article_margin: 15px;
@@ -9,9 +10,9 @@
 	box-sizing: border-box;
 }
 body {
-    background: #D9DCDD;
     background: #E3E7E8;
     color: #cdcdcd;
+    background: #D9DCDD;
     font-size: 18px;
     font-family: "Open Sans", serif;
     font-weight: 300;
@@ -456,13 +457,22 @@ body {
             width: 960px;
             margin: 0 auto;
             position: relative;
-
-            .breadcrumb {
-                color: #000;
-                font-size: 14px;
-                padding: 34px 0 12px;
-                display: block;
-            }
+			.filters{
+				.page-title {
+					font-size: 30px;
+					color: #333;
+					font-weight: 300;
+					border-bottom: 1px solid #cacaca;
+					margin: 16px 0 5px;
+				}
+				.breadcrumb {
+					color: #000;
+					font-size: 13px;
+					padding: 0;
+					display: block;
+					float: right;
+				}
+			}
 			#thematicarea-list {
 				width: 981px;
 				padding: 0 0 30px 0;
@@ -813,3 +823,4 @@ body {
 		width: 100%;
 	}
 }
+

@@ -1,7 +1,8 @@
 
 <div class="content">
 	<div class="filters">
-		<span class="breadcrumb">Películas: Catálogo, Todos los géneros, Mas relevante (480)</span>
+		<h1 class="page-title">Películas</h1>
+		<span class="breadcrumb">Todos los géneros, Mas relevante (480)</span>
 
 		<div class="filters-area">
 			<a href="#" class="filters-button" title="Filtra aquí los contenidos según tus preferencias"><span>Filtrar</span><i class="check-icon">&nbsp;</i></a>
