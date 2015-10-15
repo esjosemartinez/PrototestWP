@@ -23,11 +23,6 @@
 								<img src="theme/images/covers/areas/ta_edit_cine_interstellar.png" alt="Interstellar">
 							</a>
 						</div>
-						<div class="cover smalls">
-							<a href="/peliculas/interstellar">
-								<img src="theme/images/covers/areas/ta_edit_cine_interstellar.png" alt="Interstellar">
-							</a>
-						</div>
 					</div>
 				</section>
 				<section class="thematic-area series-area no-editor">
@@ -141,8 +136,87 @@
 					<div class="section-container">
 						<h1 class="title">Destacados</h1>
 						<ul class="picks">
-							<li>
-								<img src="theme/images/covers/areas/ta_picks.png" alt="Editor's pick">
+							<li class="vod big">
+								<a href="/peliculas/her">
+									<img src="theme/images/covers/vod/Her.jpg" alt="Editor's pick">
+								</a>
+								<div class="show-info">
+									<h2 class="show-title"><a href="/peliculas/her">Her</a></h2>
+									<span class="show-genres">Drama, Romance, ciencia-ficción </span>
+									<span class="show-duration">126 min</span>
+								</div>
+							</li>
+							<li class="vod">
+								<a href="/peliculas/up">
+									<img src="theme/images/covers/vod/Up.jpg" alt="Editor's pick">
+								</a>
+								<div class="show-info">
+									<h2 class="show-title"><a href="/peliculas/up">Up</a></h2>
+									<span class="show-genres">animación, aventura, comedia</span>
+									<span class="show-duration">96 min</span>
+								</div>
+							</li>
+							<li class="live">
+								<a href="">
+									<img src="theme/images/covers/live/TopChef.png" alt="Editor's pick">
+								</a>
+								<div class="show-info">
+									<h2 class="show-title">Top Chef</h2>
+									<span class="show-time">Ahora 13:30 - 15:15</span>
+									
+									<div class="progress-container">
+										<div class="progress" style="width: 75%"></div>
+									</div>
+								</div>
+								<a class="channel-icon" href="/página-canal"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id(1832)), 116, 172, 3); ?>"/></a>
+							</li>
+							<li class="live">
+								<a href="">
+									<img src="theme/images/covers/live/BatmanTheDarkKnight.png" alt="Editor's pick">
+								</a>
+								<div class="show-info">
+									<h2 class="show-title">Batman - The Drak Knight</h2>
+									<span class="show-time">Ahora 14:10 - 16:15</span>
+									
+									<div class="progress-container">
+										<div class="progress" style="width: 65%"></div>
+									</div>
+								</div>
+								<a class="channel-icon" href="/página-canal"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id(1788)), 116, 172, 3); ?>"/></a>
+							</li>
+							<li class="vod">
+								<a href="/series/the-walking-dead">
+									<img src="theme/images/covers/vod/TheWalkingDead.jpg" alt="Editor's pick">
+								</a>
+								<div class="show-info">
+									<h2 class="show-title"><a href="/series/the-walking-dead">The Walking Dead</a></h2>
+									<span class="show-genres">drama, horror</span>
+									<span class="show-duration">6 temporadas</span>
+								</div>
+							</li>
+							<li class="vod">
+								<a href="/series/breaking-bad">
+									<img src="theme/images/covers/vod/BreakingBad.jpg" alt="Editor's pick">
+								</a>
+								<div class="show-info">
+									<h2 class="show-title"><a href="/series/breaking-bad">Breaking Bad</a></h2>
+									<span class="show-genres">crime, drama, thriller </span>
+									<span class="show-duration">3 temporadas</span>
+								</div>
+							</li>
+							<li class="live">
+								<a href="">
+									<img src="theme/images/covers/live/Phoenix.png" alt="Editor's pick">
+								</a>
+								<div class="show-info">
+									<h2 class="show-title">Phoenix</h2>
+									<span class="show-time">Ahora 14:50 - 16:15</span>
+									
+									<div class="progress-container">
+										<div class="progress" style="width: 15%"></div>
+									</div>
+								</div>
+								<a class="channel-icon" href="/página-canal"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id(1790)), 116, 172, 3); ?>"/></a>
 							</li>
 						</ul>
 					</div>

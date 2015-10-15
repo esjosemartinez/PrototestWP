@@ -1,15 +1,18 @@
 @import "filters.less";
 @import "tabs.less";
 @import "menu.less";
+@import "scrollbar.less";
 
 @article_width: 240px;
 @article_margin: 15px;
 
-* {box-sizing: border-box;}
+* {	
+	box-sizing: border-box;
+}
 body {
-    background: #D9DCDD;
     background: #E3E7E8;
     color: #cdcdcd;
+    background: #D9DCDD;
     font-size: 18px;
     font-family: "Open Sans", serif;
     font-weight: 300;
@@ -197,6 +200,24 @@ body {
                             color: #fff;
                         }
                     }
+					.thematic-content {
+						.covers {
+							.cover {
+								position: relative;
+							}
+							.cover:after {
+								content: "";
+								position: absolute;
+								top: -2px; right:-2px; 
+								width: 0;
+								height: 0;
+								border-style: solid;
+								border-width: 0 50px 50px 0;
+								border-color: transparent #ECBD01 transparent transparent;
+
+							}
+						}
+					}
                 }
             }
             .section-more {
@@ -265,6 +286,127 @@ body {
                     color: #000;
                     padding-top: 20px;
                 }
+				
+				.picks {
+					overflow: hidden; 
+					&> li {
+						float: left;
+						width: 300px;
+						margin: 0 15px 15px 0;
+						background: #fff;
+						text-align: left;
+						height: 169px;
+						overflow: hidden;
+						position: relative;
+						a {
+							img {
+								float: left;
+							}
+						}
+						.show-info {
+							padding-left: 20px;
+							display: block;
+							width: 181px;
+							height: 169px;
+							float: left;
+							.show-title {
+								font-size: 18px;
+								margin: 24px 0 18px;
+									a {
+										color: #000;
+									}
+							}
+							.show-genres,
+							.show-duration {
+								clear: both;
+								display: block;
+								line-height: 19px;
+							}
+							.show-genres {
+								font-size: 14px;
+								color: #494949;
+							}
+							.show-duration {
+								font-size: 14px;
+								color: #494949;
+							}
+							
+						}
+						&.vod {
+							a {
+							}
+							img {
+								width: 119px;
+								height: 169px;
+							}
+							.show-genres {
+								
+							}
+							
+						}
+						
+						&.big {
+								height: 537px;
+							img {
+								width: 300px;
+								height: 438px;
+							}
+							.show-info {
+								width: 300px;
+								height: 99px;
+								
+								.show-title {
+									margin: 14px 0 7px;
+								}
+							}
+						}
+						&.live {
+							.show-info {
+								text-rendering: optimizeLegibility !important;
+								-webkit-font-smoothing: antialiased !important;
+								position: absolute;
+								bottom: 0;
+								background: rgba(0,0,0,0.7);
+								width: 300px;
+								height: 63px;
+								z-index: 1;
+								padding-left: 0;
+								
+								.show-title {
+									margin: 4px 0 0px;
+									padding-left: 11px;
+									font-size: 18px;
+									font-weight: 400;
+									a {
+										color: #fff;
+									}
+								}
+								.show-time {
+									padding-left: 11px;
+									font-size: 14px;
+									color: #fff;
+									position: relative;
+									top: -3px;
+									font-weight: 400;
+								}
+								
+							.progress-container {
+								width: 100%;
+								height: 8px;
+								display: block;
+								background: #004555;
+								z-index:11;
+								bottom:0;
+								position: absolute;
+								.progress {                                
+									background: #00c3e1;
+									height: 8px;
+								}
+							}
+							}
+						}
+					}
+				}
             }
             .section-tv {
                 background: #000;
@@ -315,13 +457,22 @@ body {
             width: 960px;
             margin: 0 auto;
             position: relative;
-
-            .breadcrumb {
-                color: #000;
-                font-size: 14px;
-                padding: 34px 0 12px;
-                display: block;
-            }
+			.filters{
+				.page-title {
+					font-size: 30px;
+					color: #333;
+					font-weight: 300;
+					border-bottom: 1px solid #cacaca;
+					margin: 16px 0 5px;
+				}
+				.breadcrumb {
+					color: #000;
+					font-size: 13px;
+					padding: 0;
+					display: block;
+					float: right;
+				}
+			}
 			#thematicarea-list {
 				width: 981px;
 				padding: 0 0 30px 0;
@@ -655,6 +806,21 @@ body {
 			width: 960px;
 			float: left;
 		}
+	}
+}
+
+
+.channel-icon {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	z-index: 11;
+	top: 5px;
+	right: 5px;
+	display: block;
+	
+	img {
+		width: 100%;
 	}
 }
 
