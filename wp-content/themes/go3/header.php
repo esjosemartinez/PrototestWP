@@ -13,11 +13,13 @@ and open the template in the editor.
 		<link rel="stylesheet/less" href="/theme/less/style.less">
 		<script src="/theme/js/vendor/less.js"></script>
 		<script src="/theme/js/vendor/jquery-2.1.1.min.js" type="text/javascript"></script>
+		<script src="/theme/js/vendor/scrollbar.js" type="text/javascript"></script>	
+<?php if(('pt_films' == get_post_type() || 'pt_tvseries' == get_post_type() || 'pt_docu' == get_post_type()) && is_archive()): ?>
 		<script src="/theme/js/vendor/tinysort.min.js" type="text/javascript"></script>
-		<script src="/theme/js/vendor/scrollbar.js" type="text/javascript"></script>
 		<script src="/theme/js/vendor/tinysort.charorder.min.js" type="text/javascript"></script>
-		<script src="/theme/js/scripts.js" type="text/javascript"></script>
 		<script src="/theme/js/thematicfilter.js" type="text/javascript"></script>
+<?php endif; ?>
+		<script src="/theme/js/scripts.js" type="text/javascript"></script>
 		<script src="/theme/js/custom.js" type="text/javascript"></script>
 	</head>
 
