@@ -13,7 +13,7 @@ $mainPostID = get_the_ID();
 				$c = count($genres) - 1;
 				$a = 0;
 				foreach ($genres as $genre):
-					echo '<span class="" data-genre="'.$genre->ID.'">'.get_the_title($genre->ID).'</span>';
+					echo '<span class="" data-genre="'.$genre.'">'.get_the_title($genre).'</span>';
 					if ($a < $c):
 						echo ' <em>|</em> ';
 					endif;
@@ -95,7 +95,7 @@ $mainPostID = get_the_ID();
 				Dirección: 
 				<?php
 					foreach ($directors as $director):
-						echo '<a class="director" href="#">'.get_the_title($director->ID).'</a>';
+						echo '<a class="director" href="#">'.get_the_title($director).'</a>';
 					endforeach;
 				endif;
 				?>
@@ -107,7 +107,7 @@ $mainPostID = get_the_ID();
 				<br/>Reparto: 
 				<?php
 				foreach ($actors as $actor):
-						echo '<a class="director" href="#">'.get_the_title($actor->ID).'</a>';
+						echo '<a class="director" href="#">'.get_the_title($actor).'</a>';
 					endforeach;
 				endif;
 				?>
@@ -136,7 +136,20 @@ $posts = get_posts(array(
 	'post_type'		=> 'pt_films',
 	'meta_key'		=> 'popularity',
 	'orderby'		=> 'meta_value_num',
-	'order'			=> 'DESC'
+	'order'			=> 'DESC',
+	'meta_query'	=> array(
+		'relation'		=> 'OR',
+		array(
+			'key'	  	=> 'genres',
+			'value'	  	=> $genres[0],
+			'compare' 	=> 'LIKE',
+		),
+		array(
+			'key'	  	=> 'genres',
+			'value'	  	=> $genres[1],
+			'compare' 	=> 'LIKE',
+		),
+	),
 ));
 if( $posts ):
 foreach( $posts as $post ): 
@@ -144,8 +157,10 @@ setup_postdata( $post )
 ?>
 		
 		<li>
-			<img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 154, 224, 3); ?>">
-			<h2 class="title"><?php the_title(); ?></h2>
+			<a href="<?php the_permalink(); ?>">
+				<img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 154, 224, 3); ?>">
+				<h2 class="title"><?php the_title(); ?></h2>
+			</a>
 		</li>
 
 <?php 
