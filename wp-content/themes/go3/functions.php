@@ -104,7 +104,7 @@ function get_media_genres_ids($genres) {
 	$c = count($genres) - 1;
 	$a = 0;
 	foreach ($genres as $genre):
-		$str .= $genre->ID;
+		$str .= $genre;
 		if ($a < $c):
 			$str .= ' ';
 		endif;
@@ -116,7 +116,7 @@ function get_media_genres_class($genres) {
 	$c = count($genres) - 1;
 	$a = 0;
 	foreach ($genres as $genre):
-		$str .= 'genre_'.$genre->ID;
+		$str .= 'genre_'.$genre;
 		if ($a < $c):
 			$str .= ' ';
 		endif;
