@@ -168,7 +168,7 @@
 										<div class="progress" style="width: 75%"></div>
 									</div>
 								</div>
-								<a class="channel-icon" href="/página-canal"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id(1832)), 116, 172, 3); ?>"/></a>
+								<a class="channel-icon" href="<?php echo get_post_permalink(1832); ?>"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id(1832)), 116, 172, 3); ?>"/></a>
 							</li>
 							<li class="live">
 								<a href="">
@@ -182,7 +182,7 @@
 										<div class="progress" style="width: 65%"></div>
 									</div>
 								</div>
-								<a class="channel-icon" href="/página-canal"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id(1788)), 116, 172, 3); ?>"/></a>
+								<a class="channel-icon" href="<?php echo get_post_permalink(1788); ?>"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id(1788)), 116, 172, 3); ?>"/></a>
 							</li>
 							<li class="vod">
 								<a href="/series/the-walking-dead">
@@ -216,7 +216,7 @@
 										<div class="progress" style="width: 15%"></div>
 									</div>
 								</div>
-								<a class="channel-icon" href="/página-canal"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id(1790)), 116, 172, 3); ?>"/></a>
+								<a class="channel-icon" href="<?php echo get_post_permalink(1790); ?>"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id(1790)), 116, 172, 3); ?>"/></a>
 							</li>
 						</ul>
 					</div>
