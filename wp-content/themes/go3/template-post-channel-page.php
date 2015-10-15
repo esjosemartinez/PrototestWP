@@ -70,7 +70,8 @@ $mainPostID = get_the_ID();
 					<h1><a href="http://prototest.jbit.es/peliculas/birdman">Birdman</a></h1>
 					<span class="duration">99m</span><br>
 					<span class="genres">
-						Comedia, Drama						</span>
+						Comedia, Drama
+					</span>
 				</div>
 			</li>
 			<li class="show vod option-visible genre_64 genre_65 genre_66" data-origin="0" data-popularity="83" data-title="The Lego Movie" data-genres="64 65 66" data-date="2015-09-28-19-07-33" data-duration="100">
@@ -99,15 +100,16 @@ $mainPostID = get_the_ID();
 					<span class="genres">
 						Acción, Biográfico, Drama						</span>
 				</div>
-			</li><li class="show live option-visible genre_64 genre_67 genre_71" data-origin="1" data-popularity="72" data-title="American Sniper" data-genres="64 67 71" data-date="2015-09-28-19-07-28" data-duration="133">
-				<img class="cover" src="/images/2015/09/AmericanSniper_306_172_3.jpg" alt="American Sniper">
-				<div class="info">
-					<h1><a href="http://prototest.jbit.es/peliculas/american-sniper">American Sniper</a></h1>
-					<span class="time">22:00 - 00:45</span>
-					<div class="progress-container">
-						<div class="progress" style="width: 55%"></div>
+			</li>
+			<li class="show live option-visible genre_64 genre_67 genre_71" data-origin="1" data-popularity="72" data-title="American Sniper" data-genres="64 67 71" data-date="2015-09-28-19-07-28" data-duration="133">
+										<img class="cover" src="/images/2015/09/americansniper-live_306_172_3.jpg" alt="American Sniper">
+					<div class="info">
+						<h1><a href="http://prototest.jbit.es/peliculas/american-sniper">American Sniper</a></h1>
+						<span class="time">22:00 - 00:45</span>
+						<div class="progress-container">
+							<div class="progress" style="width: 30%"></div>
+						</div>
 					</div>
-				</div>
 			</li>
 			<li class="show vod option-visible genre_65 genre_73" data-origin="0" data-popularity="66" data-title="The Hobbit: The Desolation of Smaug" data-genres="65 73" data-date="2015-09-28-19-07-32" data-duration="98">
 				<img class="cover" src="/images/2015/09/TheHobbitTheDesolationOfSmaug_116_172_3.jpg" alt="The Hobbit: The Desolation of Smaug">

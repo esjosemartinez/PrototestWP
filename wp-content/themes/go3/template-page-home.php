@@ -9,7 +9,7 @@
 						</a>
 					</div>
 					<div class="thematic-content">
-						<a class="cover big" href="/peliculas/interstellar">
+						<a class="cover big" href="/peliculas/birdman">
 							<img src="theme/images/covers/areas/ta_edit_big_birdman.png" alt="Birdman">
 						</a>
 						<div class="covers">
