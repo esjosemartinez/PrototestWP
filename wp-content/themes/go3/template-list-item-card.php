@@ -30,7 +30,7 @@
 					data-duration="<?php the_field('duration'); ?>" 
 					>
 					<?php if(get_field('origin') == 0): ?>
-					<img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 116, 172, 3); ?>" alt="<?php the_title(); ?>" >
+					<a href="<?php the_permalink(); ?>"><img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 116, 172, 3); ?>" alt="<?php the_title(); ?>" ></a>
 					<div class="info">
 						<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 						<span class="duration"><?php the_field('duration'); ?>min</span><br>
@@ -52,21 +52,39 @@
 					</div>
 					<?php 
 					elseif(get_field('origin') == 1): 
-					$image = get_field('live_image');
-					if(!empty($image)):
-						$imgurl = cached_image($image['url'], 306, 172, 3);
-					else:
-						$imgurl = cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 306, 172, 3);
-					endif;
+						$image = get_field('live_image');
+						if(!empty($image)):
+							$imgurl = cached_image($image['url'], 306, 172, 3);
+						else:
+							$imgurl = cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 306, 172, 3);
+						endif;
 					?>
-					<img class="cover" src="<?php echo $imgurl; ?>" alt="<?php the_title(); ?>" >
+					<a href="<?php the_permalink(); ?>"><img class="cover" src="<?php echo $imgurl; ?>" alt="<?php the_title(); ?>" ></a>
 					<div class="info">
 						<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-						<span class="time">22:00 - 00:45</span>
+						<?php
+						if(get_post_type() == 'pt_tvseries'):
+							$start = mt_rand(5,30);
+							$end = mt_rand(10,40);
+							$t = $start+$end;
+							$x = intval(($start*100)/$t);
+						else:
+							$start = mt_rand(5,60);
+							$end = mt_rand(20,120);
+							$t = $start+$end;
+							$x = intval(($start*100)/$t);
+						endif;
+						?>
+						<span class="time"><?php echo date("G:i", time()-($start*60)); ?> - <?php echo date("G:i", time()+($end*60)); ?></span>
 						<div class="progress-container">
-							<div class="progress" style="width: <?php the_field('broadcasted'); ?>%"></div>
-						</div>	
+							<div class="progress" style="width: <?php echo $x; ?>%"></div>
+						</div>
 					</div>
+					<?php
+					$channel = array_rand(shuffle(array(1836,1794,1790,1860,1838,1866,1810,1808,1868)),1);
+					
+					?>
+					<a class="channel-icon" href="<?php echo get_post_permalink($channel[0]); ?>"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id($channel[0])), 116, 172, 3); ?>"/></a>
 					<?php endif; ?>
 				</li>
 
