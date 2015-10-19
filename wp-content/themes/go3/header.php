@@ -12,6 +12,7 @@ and open the template in the editor.
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet/less" href="/theme/less/style.less">
 		<script src="/theme/js/vendor/less.js"></script>
+		<link type="text/css" rel="stylesheet" href="/theme/video/video-js.css" />
 		<script src="/theme/js/vendor/jquery-2.1.1.min.js" type="text/javascript"></script>
 		<script src="/theme/js/vendor/scrollbar.js" type="text/javascript"></script>	
 <?php if(('pt_films' == get_post_type() || 'pt_tvseries' == get_post_type() || 'pt_docu' == get_post_type()) && is_archive()): ?>
@@ -21,6 +22,9 @@ and open the template in the editor.
 <?php endif; ?>
 		<script src="/theme/js/scripts.js" type="text/javascript"></script>
 		<script src="/theme/js/custom.js" type="text/javascript"></script>
+		
+  <script src="/theme/video/video.js"></script>
+  <script src="/theme/video/youtube.js"></script>
 	</head>
 
 <?php if(is_page(1770)): ?>
@@ -34,7 +38,9 @@ and open the template in the editor.
 <?php endif; ?>
 		
 	<body>
-		<div class="overlayer"></div>
+		<div class="overlayer">
+		</div>
+		<?php get_template_part( 'template', 'player' ); ?>	
 		<div id="container">
 			<header>
 				<div class="header-container">

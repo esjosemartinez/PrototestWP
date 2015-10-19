@@ -65,7 +65,7 @@
 						<span class="time">22:00 - 00:45</span>
 						<div class="progress-container">
 							<div class="progress" style="width: <?php the_field('broadcasted'); ?>%"></div>
-						</div>
+						</div>	
 					</div>
 					<?php endif; ?>
 				</li>
