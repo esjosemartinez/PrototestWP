@@ -5,7 +5,7 @@ $mainPostID = get_the_ID();
 	<div class="show-details">
 		<img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 236, 350, 3); ?>" alt="<?php the_title(); ?>" />
 		<div class="details">
-			<h1><?php the_title(); ?></h1>
+			<h1 class="<?php if (get_field('viewed') > 90): echo'finished'; elseif(get_field('viewed') != 0): echo'started'; else: echo'not-started'; endif; ?>"><?php the_title(); ?></h1>
 			<span class="year"><?php the_field('year'); ?></span> <em>|</em> <span><?php if (get_field('viewed') != 0): echo 'Te faltan '.round( (get_field('duration')/100)*get_field('viewed'),0).' de '; endif; echo get_field('duration').' min.'; ?></span> <em>|</em> <span class="age-rating"><?php the_field('age_rating'); ?></span><br/>
 			<?php 
 			$genres = get_field('genres');
@@ -117,7 +117,7 @@ $mainPostID = get_the_ID();
 				<?php the_field('description'); ?>
 			</p>
 			<div class="actions">
-				<button class="action-button play">Reproducir</button>
+				<button class="action-button play" data-youtube="<?php echo get_field('youtube'); ?>">Reproducir</button>
 				<button class="action-button wishlist">Lo Quiero Ver</button>
 				<button class="action-button trailer">Ver Trailer</button>
 			</div>
