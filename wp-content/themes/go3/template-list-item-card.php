@@ -61,7 +61,7 @@
 					?>
 					<a href="<?php the_permalink(); ?>"><img class="cover" src="<?php echo $imgurl; ?>" alt="<?php the_title(); ?>" ></a>
 					<div class="info">
-						<h1><a href="#" class="play"><?php the_title(); ?></a></h1>
+						<h1><a href="#"><?php the_title(); ?></a></h1>
 						<?php
 						if(get_post_type() == 'pt_tvseries'):
 							$start = mt_rand(5,30);
@@ -84,7 +84,7 @@
 					$channels = array(1836,1794,1790,1860,1838,1866,1810,1808,1868);
 					shuffle($channels);
 					?>
-					<a class="channel-icon play" href="<?php echo get_post_permalink($channels[0]); ?>"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id($channels[0])), 40, 40, 3); ?>"/></a>
+					<a class="channel-icon" href="<?php echo get_post_permalink($channels[0]); ?>"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id($channels[0])), 40, 40, 3); ?>"/></a>
 					<?php endif; ?>
 				</li>
 

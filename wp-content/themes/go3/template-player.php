@@ -4,7 +4,11 @@
     <div id="player"></div>
 </div>
     <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
+		
+	$(window).load(function(){
+     
+  });
+	  	 // 2. This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
 
       tag.src = "https://www.youtube.com/iframe_api";
@@ -55,10 +59,11 @@
       function pauseVideo() {
         player.pauseVideo();
       }
+	  	  
 	  
+	$(window).load(function(){
+	
 	  
-	  
-	$(document).ready(function(){
 		$('.play').click(function(){
 			var el = $(this);
 			var id = el.attr('data-youtube');
@@ -71,8 +76,9 @@
 		});
 		$('.video-wrapper').click(function(){
 			$('.video-wrapper').addClass('hidden');
-			pauseVideo();
+			player.pauseVideo();
 		});
-	});
-	  
+		
+		
+	});	
     </script>

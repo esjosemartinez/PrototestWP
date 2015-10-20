@@ -74,20 +74,20 @@ and open the template in the editor.
 							</li>
 							<li class="search right"><form> <input type="text"  placeholder="Buscar en Vivo"/><span class="btn-close"></span></form></li>
 							<li class="my-content right"><a href="/mis-contenidos">My Content</a>
-								<ul class="submenu">
+								<!--<ul class="submenu">
 									<li><a href="#">Mis alquilados</a></li>
 									<li><a href="#">Lo quiero ver</a></li>
 									<li><a href="#">Vistos</a></li>
 									<li><a href="#">Siguiendo</a></li>
 									<li><a href="#">Grab. disponibles</a></li>
 									<li><a href="#">Grab. programadas</a></li>
-								</ul>
+								</ul>-->
 							</li>
 							<li class="tv-guide right"><a href="/guia-tv">Guía TV</a>
-								<ul class="submenu">
+								<!-- <ul class="submenu">
 									<li><a href="/guia-tv-en-directo">En Directo</a></li>
 									<li><a href="/guia-tv-programacion">Toda la programación</a></li>
-								</ul>
+								</ul> -->
 							</li>
 						</ul>
 					</nav>
