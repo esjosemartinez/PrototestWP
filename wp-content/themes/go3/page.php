@@ -22,6 +22,10 @@ elseif (is_page(1775))
 {
 	get_template_part( 'template', 'page-tvguide-program' );
 }
+elseif (is_page(1886))
+{
+	get_template_part( 'template', 'player-test' );
+}
 get_footer();
 
 ?>

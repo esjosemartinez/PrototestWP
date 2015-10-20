@@ -1,14 +1,35 @@
 .video-wrapper {
-	position: absolute;
-	top: 0;
-	left: 0;
 	z-index: 111;
-	width: 100%;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.9);
+	align-items: center;
+	width: 100vw;
 	height: 100vh;
-	background-color: rgba(0,0,0,0.8);
-	
-	.video-js {
-		width: 100%!important;
-		height: 100%!important;
+	position: fixed;
+	padding-top: 120px;
+	display: block;
+	text-align: center;
+	/*
+        transition: background .5s, transform;
+-webkit-transition: background .5s, -webkit-transform;
+*/
+
+	#player {
+		margin: 0 auto;
+		opacity: 1;
+		/*
+        transition: opacity .5s, transform;
+-webkit-transition: opacity .5s, -webkit-transform;
+		*/
 	}
+}
+.video-wrapper.hidden {
+	background-color: rgba(0,0,0,0);
+	z-index: -1;
+	#player{
+		opacity: 0;
+	}
+}
+.player-page .video-wrapper {
+
 }
