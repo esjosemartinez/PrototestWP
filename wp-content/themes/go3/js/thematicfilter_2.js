@@ -75,14 +75,15 @@ $(document).ready(function() {
 		$('.filters-option').children('.check-icon').html('○');
 		$('.filters-option.active').children('.check-icon').html('●');
 	});
+
 	$('.filters-submit-send').on('click', function(event){
 		event.preventDefault();
 		body.removeClass('filters-open');
 		$('ul#thematicarea-list>li').fadeOut(300, function() {
-			$('ul.shows li.show').removeClass('option-hidden option-visible');
+			$('ul.shows li.show').removeClass('option-hidden','option-visible');
 			$('ul.shows li.show').addClass('option-hidden');
 			// ORIGIN & GENRE
-			if(filterOriginTmp == '0'){
+			/*if(filterOriginTmp == '0'){
 				// vod
 				if(filterGenreTmp != '-1'){
 					$('ul.shows li.show.vod.genre_'+filterGenreTmp).addClass('option-visible').removeClass('option-hidden');
@@ -93,20 +94,21 @@ $(document).ready(function() {
 			else if(filterOriginTmp == '1'){
 				// live
 				if(filterGenreTmp != '-1'){
-					$('ul.shows li.show.live.genre_'+filterGenreTmp).addClass('option-visible').removeClass('option-hidden');
+					$('ul.shows li.show.vod.genre_'+filterGenreTmp).addClass('option-visible').removeClass('option-hidden');
 				}
 				else {
 					$('ul.shows li.show.live').addClass('option-visible').removeClass('option-hidden');
 				}
 			}
 			else {
+			*/
 				if(filterGenreTmp != '-1'){
 					$('ul.shows li.show.genre_'+filterGenreTmp).addClass('option-visible').removeClass('option-hidden');
 				}
 				else {
 					$('ul.shows li.show').addClass('option-visible').removeClass('option-hidden');
 				}
-			}
+			//}
 
 			// SORT
 			if(filterSortTmp == 'rel'){
@@ -121,25 +123,13 @@ $(document).ready(function() {
 				tinysort('ul#thematicarea-list>li',{attr:'data-title'});
 				
 			}
-			resultGenre		= $('.filters-option-genre.active span').text();
-			resultSort		= $('.filters-option-sort.active span').text();
-			resultCounter	= $('ul.shows li.show.option-visible').length;
-			
-			console.log(resultGenre);
-	
-			$('.filter-result-genre').html(resultGenre);
-			$('.filter-result-sort').html(resultSort);
-			$('.filter-result-counter').html(resultCounter);
 			$('ul#thematicarea-list>li').fadeIn(200);
 		});
-
 		overlayer.fadeOut(300);
 		dropdpown.fadeOut(300);
 		scrollElement.animate({ scrollTop: 0 }, 300);
 	});
-	
-	$('.filter-result-counter').html($('ul.shows li.show').length);
-	
+
 	$('#scrollbox').enscroll({
 		verticalTrackClass: 'track',
 		verticalHandleClass: 'handle',

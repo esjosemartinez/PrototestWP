@@ -51,7 +51,7 @@ $mainPostID = get_the_ID();
 
 <section>
 	<div class="section-seasons-selection">
-		<img src="/theme/images/placeholder_temporadas.png" alt="temporadas">
+		<img class="play" data-youtube="<?php the_field('youtube'); ?>" src="/theme/images/placeholder_temporadas.png" alt="temporadas">
 	</div>
 </section>
 
