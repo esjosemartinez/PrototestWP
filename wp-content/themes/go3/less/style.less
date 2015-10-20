@@ -3,6 +3,7 @@
 @import "menu.less";
 @import "scrollbar.less";
 @import "player.less";
+@import "fix.less";
 
 @article_width: 240px;
 @article_margin: 15px;
@@ -42,6 +43,9 @@ ul,li {
 }
 .right {
     float: right;
+}
+.no-bg-color {
+	background-color: transparent !important;
 }
 body {
 
@@ -543,7 +547,7 @@ body {
                             bottom: 0;
                             background: rgba(0,0,0,0.8);
                             padding: 5px 0 10px;
-                            z-index: 1;
+/*                            z-index: 1;*/
                             h1 {
                                 font-size: 21px;
                                 margin: 0;
@@ -564,7 +568,7 @@ body {
                             height: 8px;
                             display: block;
                             background: #004555;
-                            z-index:11;
+/*                            z-index:11;*/
                             bottom:0;
                             position: absolute;
                             .progress {                                
@@ -852,6 +856,101 @@ body {
 		h1 {
 			float: right;
 			padding-right: 33px;
+			font-size: 45px;
+		}
+	}
+}
+
+
+/* channel page */
+.channel-page {
+	text-align: center;
+	
+	.filters {    
+		width: 100%;
+		position: absolute;
+		margin-top: 20px;
+		right: 0;
+		
+		.filters-area {
+			
+			.filters-button {
+				
+			}
+		}
+	}
+	
+	
+	.bg-box {
+		background: #1e1e1e;
+		width: 960px;
+		height: 50px;
+		border-top: 1px solid #313131;
+		position: absolute; 
+		top: 153px;
+	}
+	label {
+		color: #fff;
+		position: relative;
+		z-index: 11;
+		font-size: 15px;
+		margin: 0 15px;
+		padding-bottom: 11px;
+	}
+	input:checked + label {
+		font-weight: 400;
+		color: #fff;
+		border-bottom: 3px solid #D9DCDD
+	}
+	.content-section {
+		background: #ECEDEE;
+		margin-bottom: 20px;
+		.header-catchup,
+		.header-program {
+			text-align: left;
+			height: 85px;
+			background: #fff;
+			margin-bottom: 14px;
+			margin-top: 30px;
+			.title {
+				font-size: 25px;
+				color: #000;
+				line-height: 85px;
+				margin-left: 23px;
+				.show-more {
+					color: #43AAFB;
+					font-size: 17px;
+					float: right;
+					margin-right: 23px;
+				}
+			}
+		}
+		.resumen-catchup {
+			padding-bottom: 10px;
+		}
+		.resumen-progam {
+			background: #D9DCDD;
+			padding-top: 10px;
+			
+			.header-program{
+				background: #000;
+				border-bottom: 1px solid #313131;
+				margin-bottom: 0;
+				.title {
+					color: #fff;
+					margin-bottom:0;
+				}
+			}
+		}
+		.breadcrumb {
+			font-size: 15px;
+			text-align: left;
+			color: #000;
+			float: left;
+			line-height: 80px;
+		}
+		&.content-program {
+			margin-top: 30px;
 		}
 	}
 }

@@ -34,6 +34,8 @@ and open the template in the editor.
 	<body class="page-tv-guide">
 <?php elseif(is_page(1886)) :?>	
 	<body class="player-page">
+<?php elseif(get_post_type() == 'pt_channels') :?>	
+	<body class="channel-page">
 <?php endif; ?>
 		
 	<body>

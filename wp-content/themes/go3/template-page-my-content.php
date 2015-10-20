@@ -5,10 +5,10 @@
 	<label for="tabWatched">Vistos</label>
 
 	<input id="tabWishlist" type="radio" name="tabs">
-	<label for="tabWishlist">Lo Quiero Ve</label>
+	<label for="tabWishlist">Lo Quiero Ver</label>
 
 	<input id="tabFollowing" type="radio" name="tabs">
-	<label for="tabFollowing">Siquiendo</label>
+	<label for="tabFollowing">Siguiendo</label>
 
 	<input id="tabRecorded" type="radio" name="tabs">
 	<label for="tabRecorded">Grabaciones</label>
