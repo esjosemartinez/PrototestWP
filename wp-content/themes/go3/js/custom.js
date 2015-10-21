@@ -33,4 +33,9 @@ $(document).ready(function(){
 		$(this).toggleClass('checked');
 	});
 	
+	$('.thematic-info').click(function(){
+		var link = $(this).find('> a').attr('href');
+		window.location.href = link;
+	});
+	
 });

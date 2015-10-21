@@ -125,6 +125,7 @@ body {
                     display: flex;
                     align-items: center;
                     justify-content: center;
+					cursor: pointer;
 					.thematic-link {
 						display: block;
 						width: 270px;
@@ -162,10 +163,14 @@ body {
 					}
 					.big {
 					}
-					small {
+					.small {
 							width: 320px;
-							height : 185px;
+							height: 180px;
+							overflow: hidden;
 						img {
+							width: 320px;
+							height: 180px;
+							overflow: hidden;
 						}
 					}
 					.covers {
@@ -721,7 +726,7 @@ body {
 								background-color: #ccc;
 							}
 							&.checked:after {
-								background-color: #43aafb;
+								background: #43aafb url(../images/icon_flag_white.png) no-repeat 10px center;
 							}
 						}
 						&.follow {
@@ -733,6 +738,7 @@ body {
 							}
 							&.checked:after {
 								background-color: #43aafb;
+								
 							}
 						}
 						&.trailer {
@@ -746,6 +752,12 @@ body {
 						}
 						&:first-child {
 							margin-left:0;
+						}
+						&.renting {
+							background-color: #e8b402;
+							&:after{
+								background: #e8b402 url(../images/icon_ticket.png) no-repeat 7px center;;
+							}
 						}
 					}
 					
