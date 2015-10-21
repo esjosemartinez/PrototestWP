@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
 	tinysort('ul#thematicarea-list>li',{attr:'data-popularity',order:'desc'});
-	tinysort('ul#thematicarea-list>li',{attr:'data-popularity',order:'desc'});
 
 	/* FILTERS DROPDOWN CHECKBOXES ACTIVATION (only one genre) */
 	filterDataElement = $('.filters-dropdown');
@@ -62,7 +61,7 @@ $(document).ready(function() {
 		filterSortTmp = filterSort;
 	});
 
-	$('.filters-submit-reset').on('click', function(event){
+	$(".filters-submit-reset, body.filters-open .filters-button, .overlayer").on('click', function(event){
 		event.preventDefault();
 		body.removeClass('filters-open');
 		overlayer.fadeOut(300);
@@ -75,6 +74,7 @@ $(document).ready(function() {
 		$('.filters-option').children('.check-icon').html('○');
 		$('.filters-option.active').children('.check-icon').html('●');
 	});
+	
 	$('.filters-submit-send').on('click', function(event){
 		event.preventDefault();
 		body.removeClass('filters-open');
