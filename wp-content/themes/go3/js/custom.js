@@ -29,5 +29,13 @@ $(document).ready(function(){
 		e.preventDefault();
 		$('.search').removeClass('open');
 	});
+	$('.action-button.follow, .action-button.wishlist').click(function(){
+		$(this).toggleClass('checked');
+	});
+	
+	$('.thematic-info').click(function(){
+		var link = $(this).find('> a').attr('href');
+		window.location.href = link;
+	});
 	
 });

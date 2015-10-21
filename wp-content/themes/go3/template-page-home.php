@@ -13,14 +13,14 @@
 							<img src="theme/images/covers/areas/ta_edit_big_birdman.png" alt="Birdman">
 						</a>
 						<div class="covers">
-							<a class="cover small" href="/peliculas/the-maze-runner">
-								<img src="theme/images/covers/areas/ta_edit_cine_maze.png" alt="Interstellar">
+							<a class="cover small" href="/peliculas/jurassic-world">
+								<img src="theme/images/covers/areas/ta_edit_cine_jurassic_world.png" alt="Jurassic World">
 							</a>
-							<a class="cover small" href="/peliculas/american-sniper">
-								<img src="theme/images/covers/areas/ta_edit_cine_sniper.png" alt="Interstellar">
+							<a class="cover small" href="/peliculas/submarine">
+								<img src="theme/images/covers/areas/ta_edit_cine_submarine.png" alt="Submarine">
 							</a>
-							<a class="cover small" href="/peliculas/interstellar">
-								<img src="theme/images/covers/areas/ta_edit_cine_interstellar.png" alt="Interstellar">
+							<a class="cover small" href="/peliculas/chappie">
+								<img src="theme/images/covers/areas/ta_edit_cine_chappie.png" alt="Chappie">
 							</a>
 						</div>
 					</div>
@@ -35,13 +35,13 @@
 					</div>
 					<div class="thematic-content">
 						<div class="covers">
-							<a class="cover small" href="/series/better-call-saul">
+							<a class="cover" href="/series/better-call-saul">
 								<img src="theme/images/covers/vod/BetterCallSaul.jpg" alt="Better Call Saul">
 							</a>
-							<a class="cover small" href="/series/game-of-thrones">
+							<a class="cover" href="/series/game-of-thrones">
 								<img src="theme/images/covers/vod/GameOfThrones.jpg" alt="Game Of Thrones">
 							</a>
-							<a class="cover small" href="/series/orange-is-the-new-black">
+							<a class="cover" href="/series/orange-is-the-new-black">
 								<img src="theme/images/covers/vod/OrangeIsTheNewBlack.jpg" alt="Orange Is The New Black">
 							</a>
 						</div>
@@ -93,13 +93,13 @@
 					</div>
 					<div class="thematic-content">
 						<div class="covers">
-							<a class="cover small" href="/peliculas/the-maze-runner-the-scorch-trials">
+							<a class="cover" href="/peliculas/the-maze-runner-the-scorch-trials">
 								<img src="theme/images/covers/vod/TheMazeRunnerScorchTrials.jpg" alt="The Maze Runner - Scorch Trials">
 							</a>
-							<a class="cover small" href="/peliculas/inside-out">
+							<a class="cover" href="/peliculas/inside-out">
 								<img src="theme/images/covers/vod/InsideOut.jpg" alt="Inside Out">
 							</a>
-							<a class="cover small" href="/peliculas/antman">
+							<a class="cover" href="/peliculas/antman">
 								<img src="theme/images/covers/vod/Antman.jpg" alt="Ant-Man">
 							</a>
 						</div>

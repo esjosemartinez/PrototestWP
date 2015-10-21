@@ -125,6 +125,7 @@ body {
                     display: flex;
                     align-items: center;
                     justify-content: center;
+					cursor: pointer;
 					.thematic-link {
 						display: block;
 						width: 270px;
@@ -162,10 +163,14 @@ body {
 					}
 					.big {
 					}
-					small {
+					.small {
 							width: 320px;
-							height : 185px;
+							height: 180px;
+							overflow: hidden;
 						img {
+							width: 320px;
+							height: 180px;
+							overflow: hidden;
 						}
 					}
 					.covers {
@@ -687,15 +692,20 @@ body {
 						margin: 0  0 0 8px;
 						padding: 0 28px 0 46px;
 						position: relative;
+						cursor: pointer;
+						outline:0;
 						&:after{
-								position: absolute;
-								content: "";
-								top:0;right:0;bottom:0;left:0;
-								background: #d9dcdd url(../images/icon_flag.png) no-repeat 10px center;
-								border-radius: 3px 0 0 3px;
-								width: 36px;
-								height: 36px;
-							}
+							position: absolute;
+							content: "";
+							top:0;right:0;bottom:0;left:0;
+							background: #d9dcdd url(../images/icon_flag.png) no-repeat 10px center;
+							border-radius: 3px 0 0 3px;
+							width: 36px;
+							height: 36px;
+						}
+						&:hover{
+							background-color: #D9DCDD;
+						}
 						&.play {
 							padding: 0 28px 0 46px;
 							background: #43aafb url(../images/icon_play.png) no-repeat 15px center;
@@ -704,15 +714,31 @@ body {
 								background: none;
 							}
 							
+							&:hover{
+								background-color: #3B94D9;
+							}
 						}
 						&.wishlist {
 							&:after{
 								background: #d9dcdd url(../images/icon_flag.png) no-repeat 10px center;
 							}
+							&:hover:after {
+								background-color: #ccc;
+							}
+							&.checked:after {
+								background: #43aafb url(../images/icon_flag_white.png) no-repeat 10px center;
+							}
 						}
 						&.follow {
 							&:after{
-								background: #d9dcdd url(../images/icon_follow.png) no-repeat 10px center;
+								background: #d9dcdd url(../images/icon_follow.png) no-repeat 7px center;
+							}
+							&:hover:after {
+								background-color: #ccc;
+							}
+							&.checked:after {
+								background-color: #43aafb;
+								
 							}
 						}
 						&.trailer {
@@ -726,6 +752,12 @@ body {
 						}
 						&:first-child {
 							margin-left:0;
+						}
+						&.renting {
+							background-color: #e8b402;
+							&:after{
+								background: #e8b402 url(../images/icon_ticket.png) no-repeat 7px center;;
+							}
 						}
 					}
 					

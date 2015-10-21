@@ -42,7 +42,7 @@ $mainPostID = get_the_ID();
 				<?php the_field('description'); ?>
 			</p>
 			<div class="actions">
-				<button class="action-button follow checked">Siguiendo</button>
+				<button class="action-button follow">Siguiendo</button>
 				<button class="action-button trailer">Ver Trailer</button>
 			</div>
 		</div>
