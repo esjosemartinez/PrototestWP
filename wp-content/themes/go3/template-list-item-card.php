@@ -61,7 +61,7 @@
 					?>
 					<a href="<?php the_permalink(); ?>"><img class="cover" src="<?php echo $imgurl; ?>" alt="<?php the_title(); ?>" ></a>
 					<div class="info">
-						<h1><a href="#"><?php the_title(); ?></a></h1>
+						<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 						<?php
 						if(get_post_type() == 'pt_tvseries'):
 							$start = mt_rand(5,30);
