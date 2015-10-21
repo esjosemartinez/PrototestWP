@@ -117,7 +117,11 @@ $mainPostID = get_the_ID();
 				<?php the_field('description'); ?>
 			</p>
 			<div class="actions">
+				<?php if(get_field('rent')): ?>
+				<button class="action-button renting">Alquilar <?php echo get_field('quality')[0];?> <?php the_field('rent_price') ;?>€</button>
+				<?php else: ?> 
 				<button class="action-button play" data-youtube="<?php echo get_field('youtube'); ?>">Reproducir</button>
+				<?php endif; ?>
 				<button class="action-button wishlist">Lo Quiero Ver</button>
 				<button class="action-button trailer">Ver Trailer</button>
 			</div>
