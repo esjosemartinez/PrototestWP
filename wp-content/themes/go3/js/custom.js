@@ -29,5 +29,8 @@ $(document).ready(function(){
 		e.preventDefault();
 		$('.search').removeClass('open');
 	});
+	$('.action-button.follow, .action-button.wishlist').click(function(){
+		$(this).toggleClass('checked');
+	});
 	
 });
