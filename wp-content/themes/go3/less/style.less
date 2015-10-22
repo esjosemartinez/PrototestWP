@@ -645,7 +645,7 @@ body {
 				line-height: 20px;
                 h1 {
                     font-size: 26px;
-                    padding-left: 37px;
+                    padding-left: 0;
                     position: relative;
                     display: block;
                     margin: 0 0 12px;
@@ -657,10 +657,20 @@ body {
                         right: 0;
                         bottom: 0;
                         left: 0;
-                        background: url('../images/icon_checks.png') no-repeat bottom;
                         height: 20px;
                         width: 28px;
                     }
+					&.started, &.finished {
+	                    padding-left: 37px;
+						&:after {
+                        background: url('../images/icon_ckeck_sprite.png') no-repeat center center;
+						}
+					}
+					&.finished {
+						&:after {
+						    background: url('../images/icon_ckeck_sprite.png') no-repeat bottom;
+						}
+					}
                 }
                 span {
                     font-weight: 400;
@@ -673,7 +683,7 @@ body {
 					color: #fff;
 					padding: 0 2px;
 					font-size: 10px;
-					&.age-TP {
+					&.age-0 {
 						background: #51AD1B;
 					}
 					&.age-7 {
