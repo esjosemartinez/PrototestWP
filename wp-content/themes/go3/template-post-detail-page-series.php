@@ -6,6 +6,7 @@ $mainPostID = get_the_ID();
 		<img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 236, 350, 3); ?>" alt="<?php the_title(); ?>" />
 		<div class="details">
 			<h1><?php the_title(); ?></h1>
+			<?php if(get_field('days_expire')): ?><span class="days-to-expire"><?php if(get_field('days_expire') > 1): ?>Quedan <?php the_field('days_expire'); ?> días<?php else: ?>Queda <?php the_field('days_expire'); ?> día<?php endif; ?></span><?php endif; ?>
 			<span class="year"><?php the_field('year'); ?></span> <em>|</em> <span class="age-rating"><?php the_field('age_rating'); ?></span><br/>
 			<?php 
 			$genres = get_field('genres');
@@ -42,7 +43,7 @@ $mainPostID = get_the_ID();
 				<?php the_field('description'); ?>
 			</p>
 			<div class="actions">
-				<button class="action-button follow">Siguiendo</button>
+				<button class="action-button follow <?php if(mt_rand(1,3) == 1): echo 'checked'; endif; ?>">Siguiendo</button>
 				<button class="action-button trailer">Ver Trailer</button>
 			</div>
 		</div>
