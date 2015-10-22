@@ -128,7 +128,7 @@ $mainPostID = get_the_ID();
 				<?php the_field('description'); ?>
 			</p>
 			<div class="actions">
-				<?php if(get_field('rent')): ?>
+				<?php if(get_field('rent') && (get_field('days_expire') == 0)): ?>
 				<button class="action-button renting">Alquilar <?php echo get_field('quality')[0];?> <?php the_field('rent_price') ;?>€</button>
 				<?php else: ?> 
 				<button class="action-button play" data-youtube="<?php echo get_field('youtube'); ?>">Reproducir</button>
