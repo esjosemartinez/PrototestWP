@@ -21,7 +21,8 @@
 				}
 				?>
 
-				<li class="show <?php echo $origin; ?> option-visible <?php echo get_media_genres_class($genres); ?>" 
+				<li class="show <?php echo $origin; ?> option-visible <?php echo get_media_genres_class($genres); ?> <?php if(get_field('rent')): ?>renting<? endif;?>"
+					
 					data-origin="<?php the_field('origin'); ?>" 
 					data-popularity="<?php the_field('popularity'); ?>" 
 					data-title="<?php the_title(); ?>" 

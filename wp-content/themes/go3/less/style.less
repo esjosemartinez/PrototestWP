@@ -496,6 +496,7 @@ body {
                 .shows {
                     overflow: hidden;
                     .show {
+						position: relative;
 						display: inline-block;
                         width: 306px;
                         height: 172px;
@@ -506,6 +507,20 @@ body {
                             margin-left: 0;
                         }
 						*/
+						
+						&.renting {
+							display: none !important;
+							&:after {
+								content: "";
+								position: absolute;
+								top: -2px; right:-2px; 
+								width: 0;
+								height: 0;
+								border-style: solid;
+								border-width: 0 50px 50px 0;
+								border-color: transparent #ECBD01 transparent transparent;
+							}
+						}
                     }
                     .vod {
                         background: #fff;
@@ -653,6 +668,26 @@ body {
 				em{
 					font-style: normal;
 					color: #cdcdcd;
+				}
+				.age-rating {
+					color: #fff;
+					padding: 0 2px;
+					font-size: 10px;
+					&.age-TP {
+						background: #51AD1B;
+					}
+					&.age-7 {
+						background: #4FABE0;
+					}
+					&.age-13 {
+						background: #F8D500;
+					}
+					&.age-16 {
+						background: #F8D500;
+					}
+					&.age-18 {
+						background: #E1343A;
+					}
 				}
                 .stars {
                     line-height: 32px;
@@ -987,3 +1022,7 @@ body {
 		}
 	}
 }
+
+/***************************************/
+/********** List-item-card *************/
+/***************************************/
