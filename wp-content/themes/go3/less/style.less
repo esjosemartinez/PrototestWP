@@ -496,6 +496,7 @@ body {
                 .shows {
                     overflow: hidden;
                     .show {
+						position: relative;
 						display: inline-block;
                         width: 306px;
                         height: 172px;
@@ -506,6 +507,17 @@ body {
                             margin-left: 0;
                         }
 						*/
+						
+						&.renting:after {
+							content: "";
+							position: absolute;
+							top: -2px; right:-2px; 
+							width: 0;
+							height: 0;
+							border-style: solid;
+							border-width: 0 50px 50px 0;
+							border-color: transparent #ECBD01 transparent transparent;
+						}
                     }
                     .vod {
                         background: #fff;
@@ -987,3 +999,7 @@ body {
 		}
 	}
 }
+
+/***************************************/
+/********** List-item-card *************/
+/***************************************/
