@@ -3,16 +3,19 @@ $mainPostID = get_the_ID();
 ?>
 <div class="content">
 	<div class="show-details">
-		<img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 236, 350, 3); ?>" alt="<?php the_title(); ?>" />
+		<div class="cover-box <?php if(get_field('rent_price')): echo'rent-triangle'; endif; ?>"><img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 236, 350, 3); ?>" alt="<?php the_title(); ?>" /></div>
 		<div class="details">
 			<h1 class="<?php if (get_field('viewed') > 90): echo'finished'; elseif(get_field('viewed') != 0): echo'started'; else: echo'not-started'; endif; ?>"><?php the_title(); ?></h1>
-			<?php if(get_field('days_expire')): ?><span class="days-to-expire"><?php if(get_field('days_expire') > 1): ?>Expira en <?php the_field('days_expire'); ?> días<?php else: ?>Expira en <?php the_field('days_expire'); ?> día<?php endif; ?></span><?php endif; ?>
-			<span class="year"><?php the_field('year'); ?></span> <em>|</em> <span>
-				<?php if (get_field('viewed') != 0): echo round( (get_field('duration')/100)*get_field('viewed'),0).' de '; endif; echo get_field('duration').' min'; ?></span> <em>|</em>
-				<?php if (get_field('viewed') != 0):?>
-				
-				<span class="progress-bar"><span class="progress" style="<?php echo get_field('viewed').'%';?>"></span></span>
-				<?php endif;?>
+			<?php if(get_field('days_expire')): ?><span class="days-to-expire">Expira en <?php the_field('days_expire'); ?> día<?php if(get_field('days_expire') > 1): ?>s<?php endif; ?></span><?php endif; ?>
+			<span class="year"><?php the_field('year'); ?></span> <em>|</em>
+			
+			<?php if(get_field('viewed') != 0 && get_field('viewed') < 95 ):?>
+				<span><?php echo round( (get_field('duration')/100)*get_field('viewed'),0).' de '.get_field('duration').' min'; ?></span>
+				<span class="progress-bar"><span class="progress" style="<?php echo 'width:'.get_field('viewed').'%';?>"></span></span> <em>|</em>
+			<?php else:?>
+				<span><?php echo get_field('duration').' min'; ?></span> <em>|</em>
+			<?php endif;?>
+			
 				 
 				<span class="age-rating age-<?php the_field('age_rating');?>"><?php if(get_field('age_rating')==0){echo 'TP';}else{the_field('age_rating');};?></span><br/>
 			<?php 
