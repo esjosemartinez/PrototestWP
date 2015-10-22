@@ -27,3 +27,7 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+AuthType Basic
+AuthName "PROTOTEST"
+AuthUserFile "/home/jbit/.htpasswds/public_html/sd/prototest/passwd"
+require valid-user

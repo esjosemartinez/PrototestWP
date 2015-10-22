@@ -304,3 +304,226 @@
 [01-Oct-2015 16:53:21 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 43
 [01-Oct-2015 16:54:28 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 43
 [01-Oct-2015 16:55:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 42
+[05-Oct-2015 15:48:22 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 20
+[05-Oct-2015 15:55:21 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 31
+[05-Oct-2015 15:56:02 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 31
+[05-Oct-2015 15:56:09 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 31
+[05-Oct-2015 16:02:35 UTC] PHP Fatal error:  Cannot use object of type WP_Post as array in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:00:38 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:02:10 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:03:10 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:06:02 UTC] PHP Fatal error:  Call to undefined function count_items_by_genre() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:09:43 UTC] PHP Fatal error:  Call to undefined function count_items_by_genre() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:09:45 UTC] PHP Fatal error:  Call to undefined function count_items_by_genre() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:09:55 UTC] PHP Fatal error:  Call to undefined function count_items_by_genre() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:10:01 UTC] PHP Fatal error:  Call to undefined function count_items_by_genre() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:10:03 UTC] PHP Fatal error:  Call to undefined function count_items_by_genre() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:10:06 UTC] PHP Fatal error:  Call to undefined function count_items_by_genre() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:10:30 UTC] PHP Fatal error:  Call to undefined function count_items_by_genre() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:10:32 UTC] PHP Fatal error:  Call to undefined function count_items_by_genre() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:10:34 UTC] PHP Fatal error:  Call to undefined function count_items_by_genre() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:10:34 UTC] PHP Fatal error:  Call to undefined function count_items_by_genre() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 34
+[06-Oct-2015 17:10:47 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ')' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 100
+[06-Oct-2015 17:10:48 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ')' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 100
+[06-Oct-2015 17:11:01 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ')' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 100
+[06-Oct-2015 17:11:02 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ')' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 100
+[08-Oct-2015 13:58:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[08-Oct-2015 14:26:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[08-Oct-2015 14:26:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[13-Oct-2015 10:23:16 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 55
+[13-Oct-2015 10:23:31 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 55
+[13-Oct-2015 12:30:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 91
+[13-Oct-2015 15:12:03 UTC] PHP Parse error:  syntax error, unexpected ''meta_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 142
+[13-Oct-2015 16:01:54 UTC] PHP Parse error:  syntax error, unexpected ''meta_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 136
+[13-Oct-2015 16:05:11 UTC] PHP Parse error:  syntax error, unexpected ''meta_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 136
+[14-Oct-2015 09:18:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[14-Oct-2015 09:18:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[14-Oct-2015 09:18:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[14-Oct-2015 09:18:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[14-Oct-2015 09:18:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[14-Oct-2015 09:18:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[14-Oct-2015 09:18:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[14-Oct-2015 09:18:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[14-Oct-2015 09:19:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[14-Oct-2015 09:19:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[14-Oct-2015 16:13:11 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 96
+[14-Oct-2015 16:13:20 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 96
+[14-Oct-2015 16:28:17 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 96
+[14-Oct-2015 16:50:49 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/jbit/public_html/sd/prototest/wp-includes/meta.php on line 1455
+[14-Oct-2015 16:51:52 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/jbit/public_html/sd/prototest/wp-includes/meta.php on line 1455
+[14-Oct-2015 16:52:33 UTC] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 143
+[14-Oct-2015 16:53:26 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/jbit/public_html/sd/prototest/wp-includes/meta.php on line 1455
+[14-Oct-2015 16:54:21 UTC] PHP Parse error:  syntax error, unexpected '$genres' (T_VARIABLE), expecting '(' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 143
+[14-Oct-2015 16:54:41 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/jbit/public_html/sd/prototest/wp-includes/meta.php on line 1455
+[14-Oct-2015 16:57:46 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/jbit/public_html/sd/prototest/wp-includes/meta.php on line 1455
+[14-Oct-2015 16:57:51 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/jbit/public_html/sd/prototest/wp-includes/meta.php on line 1455
+[14-Oct-2015 16:58:34 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/jbit/public_html/sd/prototest/wp-includes/meta.php on line 1455
+[14-Oct-2015 16:59:12 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/jbit/public_html/sd/prototest/wp-includes/meta.php on line 1455
+[15-Oct-2015 08:38:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 08:38:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 08:49:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 08:49:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 08:50:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 08:50:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 08:50:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 08:50:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 08:52:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 08:52:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 08:58:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 08:58:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 09:09:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 09:09:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 12:58:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 12:58:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 13:00:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 13:00:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 14:40:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 14:40:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 14:41:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 14:41:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 14:46:20 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 4
+[15-Oct-2015 14:46:54 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-thematic-area.php on line 4
+[15-Oct-2015 14:47:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 14:47:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 14:48:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 14:48:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 15:09:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 15:09:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 15:10:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 15:10:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 17:11:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 17:11:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 17:15:13 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-list-item-card.php on line 65
+[15-Oct-2015 17:20:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 17:20:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 17:21:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 17:21:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 18:59:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 18:59:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 19:38:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 19:38:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 19:39:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 19:39:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[15-Oct-2015 19:39:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[15-Oct-2015 19:39:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 09:41:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 09:41:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 09:42:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 09:42:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 09:57:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 09:57:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 09:58:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 09:58:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 09:59:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 09:59:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 09:59:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 09:59:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 10:15:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 10:15:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 10:15:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 10:15:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 10:15:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 10:15:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 10:15:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 10:15:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 10:15:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 10:15:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 10:17:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 10:17:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 10:23:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 10:23:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 10:28:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 10:28:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 10:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 118
+[16-Oct-2015 10:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 106
+[16-Oct-2015 12:38:05 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 12:38:05 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:33:07 Europe/Madrid] PHP Parse error:  syntax error, unexpected '$x' (T_VARIABLE) in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-list-item-card.php on line 70
+[16-Oct-2015 13:48:00 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:48:00 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:48:53 Europe/Madrid] PHP Fatal error:  Call to undefined function int() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-list-item-card.php on line 70
+[16-Oct-2015 13:49:35 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:49:35 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:50:08 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:50:08 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:50:14 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:50:14 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:50:21 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:50:21 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:50:25 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:50:25 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:53:16 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:53:16 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:53:21 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:53:21 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:53:27 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:53:27 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:53:28 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:53:28 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:53:30 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:53:30 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:53:31 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:53:31 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:53:33 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:53:33 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:53:35 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:53:35 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:53:39 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:53:39 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:53:41 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:53:41 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 13:53:46 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[16-Oct-2015 13:53:46 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[16-Oct-2015 14:26:50 Europe/Madrid] PHP Fatal error:  Only variables can be passed by reference in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-list-item-card.php on line 84
+[16-Oct-2015 14:28:05 Europe/Madrid] PHP Warning:  array_rand() expects parameter 1 to be array, boolean given in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-list-item-card.php on line 85
+[16-Oct-2015 14:28:05 Europe/Madrid] PHP Warning:  array_rand() expects parameter 1 to be array, boolean given in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-list-item-card.php on line 85
+[16-Oct-2015 14:28:05 Europe/Madrid] PHP Warning:  array_rand() expects parameter 1 to be array, boolean given in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-list-item-card.php on line 85
+[19-Oct-2015 16:04:49 Europe/Madrid] PHP Parse error:  syntax error, unexpected end of file in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 173
+[19-Oct-2015 16:05:06 Europe/Madrid] PHP Parse error:  syntax error, unexpected end of file in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 173
+[20-Oct-2015 15:14:36 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 15:14:36 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 16:30:04 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 16:30:04 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 18:20:26 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 18:20:26 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 18:36:33 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 18:36:33 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:13:44 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:13:44 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:13:58 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:13:58 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:15:32 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:15:32 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:15:35 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:15:35 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:15:36 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:15:36 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:15:47 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:15:47 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:16:43 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:16:43 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:16:45 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:16:45 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:16:52 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:16:52 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:16:56 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:16:56 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:40:38 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:40:38 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:43:42 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:43:42 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 19:43:48 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 19:43:48 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 20:06:00 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 20:06:00 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 20:06:36 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 20:06:36 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[20-Oct-2015 20:06:52 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[20-Oct-2015 20:06:52 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[21-Oct-2015 14:26:36 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[21-Oct-2015 14:26:36 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[21-Oct-2015 15:00:19 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 119
+[21-Oct-2015 15:00:19 Europe/Madrid] PHP Warning:  Invalid argument supplied for foreach() in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/functions.php on line 107
+[21-Oct-2015 17:45:51 Europe/Madrid] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 121
+[22-Oct-2015 14:20:32 Europe/Madrid] PHP Parse error:  syntax error, unexpected end of file in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 188
+[22-Oct-2015 14:21:35 Europe/Madrid] PHP Parse error:  syntax error, unexpected end of file in /home/jbit/public_html/sd/prototest/wp-content/themes/go3/template-post-detail-page.php on line 188

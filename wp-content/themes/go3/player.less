@@ -1,0 +1,36 @@
+.video-wrapper {
+	z-index: 111;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.9);
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	padding-top: 120px;
+	display: block;
+	text-align: center;
+	/*
+        transition: background .5s, transform;
+-webkit-transition: background .5s, -webkit-transform;
+*/
+
+	#player {
+		margin: 0 auto;
+		opacity: 1;
+		/*
+        transition: opacity .5s, transform;
+-webkit-transition: opacity .5s, -webkit-transform;
+		*/
+	}
+}
+.video-wrapper.hidden {
+	background-color: rgba(0,0,0,0);
+	z-index: -1;
+	transition-delay: 2s;
+	#player{
+		opacity: 0;
+	}
+}
+.player-page .video-wrapper {
+
+}

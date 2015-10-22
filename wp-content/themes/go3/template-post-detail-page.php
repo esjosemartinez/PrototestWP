@@ -15,6 +15,7 @@ $mainPostID = get_the_ID();
 			<?php else:?>
 				<span><?php echo get_field('duration').' min'; ?></span> <em>|</em>
 			<?php endif;?>
+			
 				 
 				<span class="age-rating age-<?php the_field('age_rating');?>"><?php if(get_field('age_rating')==0){echo 'TP';}else{the_field('age_rating');};?></span><br/>
 			<?php 
