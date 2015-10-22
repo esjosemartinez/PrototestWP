@@ -6,7 +6,7 @@ $mainPostID = get_the_ID();
 		<img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 236, 350, 3); ?>" alt="<?php the_title(); ?>" />
 		<div class="details">
 			<h1 class="<?php if (get_field('viewed') > 90): echo'finished'; elseif(get_field('viewed') != 0): echo'started'; else: echo'not-started'; endif; ?>"><?php the_title(); ?></h1>
-			<?php if(get_field('days_expire')): ?><span class="days-to-expire"><?php if(get_field('days_expire') > 1): ?>Quedan <?php the_field('days_expire'); ?> días<?php else: ?>Queda <?php the_field('days_expire'); ?> día<?php endif; ?></span><?php endif; ?>
+			<?php if(get_field('days_expire')): ?><span class="days-to-expire"><?php if(get_field('days_expire') > 1): ?>Expira en <?php the_field('days_expire'); ?> días<?php else: ?>Expira en <?php the_field('days_expire'); ?> día<?php endif; ?></span><?php endif; ?>
 			<span class="year"><?php the_field('year'); ?></span> <em>|</em> <span>
 				<?php if (get_field('viewed') != 0): echo 'Te faltan '.round( (get_field('duration')/100)*get_field('viewed'),0).' de '; endif; echo get_field('duration').' min.'; ?></span> <em>|</em> 
 				<span class="age-rating <?php if(get_field('age_rating')=='0'){echo 'age-TP">TP';}else{the_field('age_rating').'">'.the_field('age_rating');}; ?></span><br/>
