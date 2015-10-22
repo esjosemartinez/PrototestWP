@@ -8,8 +8,13 @@ $mainPostID = get_the_ID();
 			<h1 class="<?php if (get_field('viewed') > 90): echo'finished'; elseif(get_field('viewed') != 0): echo'started'; else: echo'not-started'; endif; ?>"><?php the_title(); ?></h1>
 			<?php if(get_field('days_expire')): ?><span class="days-to-expire"><?php if(get_field('days_expire') > 1): ?>Quedan <?php the_field('days_expire'); ?> días<?php else: ?>Queda <?php the_field('days_expire'); ?> día<?php endif; ?></span><?php endif; ?>
 			<span class="year"><?php the_field('year'); ?></span> <em>|</em> <span>
-				<?php if (get_field('viewed') != 0): echo 'Te faltan '.round( (get_field('duration')/100)*get_field('viewed'),0).' de '; endif; echo get_field('duration').' min.'; ?></span> <em>|</em> 
-				<span class="age-rating <?php if(get_field('age_rating')=='0'){echo 'age-TP">TP';}else{the_field('age_rating').'">'.the_field('age_rating');}; ?></span><br/>
+				<?php if (get_field('viewed') != 0): echo round( (get_field('duration')/100)*get_field('viewed'),0).' de '; endif; echo get_field('duration').' min'; ?></span> <em>|</em>
+				<?php if (get_field('viewed') != 0):?>
+				
+				<span class="progress-bar"><span class="progress" style="<?php echo get_field('viewed').'%';?>"></span></span>
+				<?php endif;?>
+				 
+				<span class="age-rating age-<?php the_field('age_rating');?>"><?php if(get_field('age_rating')==0){echo 'TP';}else{the_field('age_rating');};?></span><br/>
 			<?php 
 			$genres = get_field('genres');
 			if ($genres):
