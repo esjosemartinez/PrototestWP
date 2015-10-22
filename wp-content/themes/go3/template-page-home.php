@@ -228,6 +228,9 @@
 						<ul class="picks">
 							<li>
 								<img src="theme/images/covers/areas/ta_tv.png" alt="Televisión">
+								<a href="/guia-tv-en-directo" class="home-epg-now-link"></a>
+								<a href="/guia-tv-programacion" class="home-epg-full-link"></a>
+								<a href="/canales/fox" class="home-channel-link"></a>
 							</li>
 						</ul>
 					</div>
