@@ -38,29 +38,36 @@ $(document).ready(function(){
 		window.location.href = link;
 	});
 
+	$('.show-more.show-catchup').on('click',function()
+	{
+		var checkBox = $("#tabCatchup");
+		var body = $("body");
+		body.animate({scrollTop:0}, '500', function() {
+			// Animation complete.
+			checkBox.trigger('click');
+		});
+	}); 
+	$('.show-more.show-program').on('click',function()
+	{
+		var checkBox = $("#tabProgram");
+		var body = $("body");
+		body.animate({scrollTop:0}, '500', function() {
+			// Animation complete.
+			checkBox.trigger('click');
+		});
+	}); 
 
-$('.show-more.show-catchup').on('click',function()
-{
-	var checkBox = $("#tabCatchup");
-	var body = $("body");
-	body.animate({scrollTop:0}, '500', function() {
-		// Animation complete.
-		checkBox.trigger('click');
-	});
-}); 
-$('.show-more.show-program').on('click',function()
-{
-	var checkBox = $("#tabProgram");
-    var body = $("body");
-	body.animate({scrollTop:0}, '500', function() {
-		// Animation complete.
-		checkBox.trigger('click');
-	});
-}); 
-
-
-
-
-
-
+	/*
+	$('.channel-page-content .show-more').click(function(){
+		if($(this).hasClass('show-catchup')){
+			$('#tabResumen').attr('checked', false);
+			$('#tabCatchup').attr('checked', true);
+			$('#tabProgram').attr('checked', false);
+		}
+		if($(this).hasClass('show-program')){
+			$('#tabResumen').attr('checked', false);
+			$('#tabCatchup').attr('checked', false);
+			$('#tabProgram').attr('checked', true);
+		}
+	});*/
 });
