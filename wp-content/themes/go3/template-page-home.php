@@ -171,16 +171,16 @@
 								<a class="channel-icon" href="<?php echo get_post_permalink(1832); ?>"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id(1832)), 40, 40, 3); ?>"/></a>
 							</li>
 							<li class="live">
-								<a href="">
-									<img src="theme/images/covers/live/BatmanTheDarkKnight.png" alt="Editor's pick">
+								<a href="#">
+									<img src="theme/images/covers/live/Futuro-IronMan2.png" alt="Editor's pick">
 								</a>
 								<div class="show-info">
-									<h2 class="show-title">Batman - The Drak Knight</h2>
-									<span class="show-time">Ahora 14:10 - 16:15</span>
+									<h2 class="show-title">Iron Man 2</h2>
+									<span class="show-time">Mañana 21:30 - 23:40</span>
 									
-									<div class="progress-container">
-										<div class="progress" style="width: 65%"></div>
-									</div>
+									<!--<div class="progress-container">
+										<div class="progress" style="width: 0%"></div>
+									</div>-->
 								</div>
 								<a class="channel-icon" href="<?php echo get_post_permalink(1788); ?>"><img src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id(1788)), 40, 40, 3); ?>"/></a>
 							</li>
@@ -205,7 +205,7 @@
 								</div>
 							</li>
 							<li class="live">
-								<a href="">
+								<a href="#">
 									<img src="theme/images/covers/live/Phoenix.png" alt="Editor's pick">
 								</a>
 								<div class="show-info">
