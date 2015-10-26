@@ -3,7 +3,7 @@ $mainPostID = get_the_ID();
 ?>
 <div class="content">
 	<div class="show-details">
-		<div class="cover-box <?php if(get_field('rent_price')): echo'rent-triangle'; endif; ?>"><img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 236, 350, 3); ?>" alt="<?php the_title(); ?>" /></div>
+		<div class="cover-box <?php if(get_field('rent')): echo'rent-triangle'; endif; ?>"><img class="cover" src="<?php echo cached_image(wp_get_attachment_url(get_post_thumbnail_id()), 236, 350, 3); ?>" alt="<?php the_title(); ?>" /></div>
 		<div class="details">
 			<h1 class="<?php if (get_field('viewed') > 90): echo'finished'; elseif(get_field('viewed') != 0): echo'started'; else: echo'not-started'; endif; ?>"><?php the_title(); ?></h1>
 			<?php if(get_field('days_expire')): ?><span class="days-to-expire">Expira en <?php the_field('days_expire'); ?> día<?php if(get_field('days_expire') > 1): ?>s<?php endif; ?></span><?php endif; ?>
