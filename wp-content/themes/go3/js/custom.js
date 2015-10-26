@@ -37,5 +37,17 @@ $(document).ready(function(){
 		var link = $(this).find('> a').attr('href');
 		window.location.href = link;
 	});
-	
+	/*
+	$('.channel-page-content .show-more').click(function(){
+		if($(this).hasClass('show-catchup')){
+			$('#tabResumen').attr('checked', false);
+			$('#tabCatchup').attr('checked', true);
+			$('#tabProgram').attr('checked', false);
+		}
+		if($(this).hasClass('show-program')){
+			$('#tabResumen').attr('checked', false);
+			$('#tabCatchup').attr('checked', false);
+			$('#tabProgram').attr('checked', true);
+		}
+	});*/
 });
