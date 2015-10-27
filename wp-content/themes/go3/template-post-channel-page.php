@@ -23,13 +23,13 @@ $mainPostID = get_the_ID();
 			<div class="header-catchup">
 				<h1 class="title">Vídeos de <?php the_title(); ?><a class="show-more">ver más vídeos</a></h1>
 			</div>
-			<img class="cover" src="/theme/images/placeholder_channel_resumen_catchup.png" alt="catchup" >
+			<img class="cover" src="<?php echo get_site_url(); ?>/wp-content/themes/go3/images/placeholder_channel_resumen_catchup.png" alt="catchup" >
 		</div>
 		<div class="resumen-progam">
 			<div class="header-program">
 				<h1 class="title">Ahora en <?php the_title(); ?><a class="show-more">ver toda la programación</a></h1>
 			</div>
-			<img class="cover" src="/theme/images/placeholder_channel_resumen_programacion.png" alt="programación" >
+			<img class="cover" src="<?php echo get_site_url(); ?>/wp-content/themes/go3/images/placeholder_channel_resumen_programacion.png" alt="programación" >
 		</div>
 	</section>
 
@@ -41,11 +41,11 @@ $mainPostID = get_the_ID();
 		</div>
 		
 		<span class="breadcrumb">Todos los géneros, Mas relevante (480)</span>
-		<img class="cover" src="/theme/images/placeholder_channel_catchup.png" alt="catchup" >
+		<img class="cover" src="<?php echo get_site_url(); ?>/wp-content/themes/go3/images/placeholder_channel_catchup.png" alt="catchup" >
 	</section>
 
 	<section id="contentFollowing" class="content-section content-program">
-		<img class="cover" src="/theme/images/placeholder_channel_programacion.png" alt="programación" >
+		<img class="cover" src="<?php echo get_site_url(); ?>/wp-content/themes/go3/images/placeholder_channel_programacion.png" alt="programación" >
 	</section>
 	
 </div>

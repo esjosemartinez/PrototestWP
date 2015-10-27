@@ -71,7 +71,7 @@ function cached_image($imgurl,$width,$height,$zc){
 		endif;
 	endwhile;
 	$str = split_image_url($t);
-	return '/images/'.$str[0].'_'.$width.'_'.$height.'_'.$zc.'.'.$str[1];
+	return get_site_url().'/images/'.$str[0].'_'.$width.'_'.$height.'_'.$zc.'.'.$str[1];
 }
 function split_image_url($imgurl){
 	$s = explode('.',$imgurl);

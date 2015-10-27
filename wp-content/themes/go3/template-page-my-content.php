@@ -17,23 +17,23 @@
 	<label for="tabRented">Mis Alquilados</label>
 
 	<section id="contentWatched" class="content-section">
-		<img class="cover" src="theme/images/placeholder_vistos.png" alt="vistos" >
+		<img class="cover" src="<?php echo get_site_url(); ?>/wp-content/themes/go3/images/placeholder_vistos.png" alt="vistos" >
 	</section>
 
 	<section id="contentWishlist" class="content-section">
-		<img class="cover" src="theme/images/placeholder_loquierover.png" alt="lo quiero ver" >
+		<img class="cover" src="<?php echo get_site_url(); ?>/wp-content/themes/go3/images/placeholder_loquierover.png" alt="lo quiero ver" >
 	</section>
 
 	<section id="contentFollowing" class="content-section">
-		<img class="cover" src="theme/images/placeholder_siguiendo.png" alt="siguiendo" >
+		<img class="cover" src="<?php echo get_site_url(); ?>/wp-content/themes/go3/images/placeholder_siguiendo.png" alt="siguiendo" >
 	</section>
 
 	<section id="contentRecorded" class="content-section">
-		<img class="cover" src="theme/images/placeholder_grabaciones.png" alt="grabaciones" >
+		<img class="cover" src="<?php echo get_site_url(); ?>/wp-content/themes/go3/images/placeholder_grabaciones.png" alt="grabaciones" >
 	</section>
 
 	<section id="contentRented" class="content-section">
-		<img class="cover" src="theme/images/placeholder_alquilados.png" alt="alquilados" >
+		<img class="cover" src="<?php echo get_site_url(); ?>/wp-content/themes/go3/images/placeholder_alquilados.png" alt="alquilados" >
 	</section>
 
 </main>
