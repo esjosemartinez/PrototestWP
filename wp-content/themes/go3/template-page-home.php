@@ -24,7 +24,8 @@
 							</a>
 						</div>
 					</div>
-				</section>
+				</section
+
 				<section class="thematic-area series-area no-editor">
 					<div class="thematic-info">
 						<a class="thematic-link" href="/series">
