@@ -50,6 +50,11 @@
 							endif;
 							?>
 						</span>
+						<span class="placard-icons">
+							<ul>
+								<li><a href="#" class="placard-icon placard-icon-play play" data-youtube="<?php echo get_field('youtube'); ?>"><i class="material-icons">play_arrow</i></a></li>
+							</ul>
+						</span>
 					</div>
 					<?php 
 					elseif(get_field('origin') == 1): 
@@ -77,6 +82,12 @@
 						endif;
 						?>
 						<span class="time"><?php echo date("G:i", time()-($start*60)); ?> - <?php echo date("G:i", time()+($end*60)); ?></span>
+						<span class="placard-icons">
+							<ul>
+								<li><a href="#" class="placard-icon placard-icon-play play" data-youtube="<?php echo get_field('youtube'); ?>"><i class="material-icons">play_arrow</i></a></li>
+								<li><a href="#" class="placard-icon placard-icon-record"><i class="material-icons">brightness_1</i></a></li>
+							</ul>
+						</span>
 						<div class="progress-container">
 							<div class="progress" style="width: <?php echo $x; ?>%"></div>
 						</div>

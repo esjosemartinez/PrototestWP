@@ -86,3 +86,70 @@ main {
     left: 40px;
     background: #FFF;
 }
+.placard-icons {
+	display: none;
+	opacity:0;
+    position: absolute;
+    bottom: 3px;
+    right: 14px;
+}
+.show:hover .placard-icons {
+	display: block;
+	opacity:1;
+}
+.placard-icons li {
+	display:block;
+	float:left;
+	width:20px;
+	margin:0 0 0 10px;
+}
+.placard-icon {
+	display:block;
+}
+.show:hover .placard-icon {
+	display:block;
+	color:#999 !important;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+.placard-icon-play i {
+	font-size: 26px;
+	color:#f1f1f1 !important;
+}
+.show.vod .placard-icon-play i {
+	font-size: 26px;
+	color:#999 !important;
+}
+.placard-icon-play:hover i {
+	color:#ccc !important;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+.show.vod .placard-icon-play:hover i {
+	color:#333 !important;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+
+.placard-icon-record i {
+	font-size: 18px;
+	line-height:26px;
+	color:#ec383a !important;
+}
+.placard-icon-record:hover i {
+	color:#c21e1e !important;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}

@@ -10,6 +10,7 @@ and open the template in the editor.
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 		<link rel="stylesheet/less" href="<?php echo get_site_url(); ?>/wp-content/themes/go3/less/style.less">
 		<script src="<?php echo get_site_url(); ?>/wp-content/themes/go3/js/vendor/less.js"></script>
 		<script src="<?php echo get_site_url(); ?>/wp-content/themes/go3/js/vendor/jquery-2.1.1.min.js" type="text/javascript"></script>

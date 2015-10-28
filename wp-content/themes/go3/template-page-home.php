@@ -27,7 +27,7 @@
 				</section>
 				<section class="thematic-area series-area no-editor">
 					<div class="thematic-info">
-						<a class="thematic-link" href="/series">
+						<a class="thematic-link" href="<?php echo get_site_url(); ?>/series">
 							<h1 class="thematic-title">Series</h1>
 							<p class="thematic-slogan">Disfruta de las últimas temporadas de tus series preferidas</p>
 							<span class="link">Ir a series</span>

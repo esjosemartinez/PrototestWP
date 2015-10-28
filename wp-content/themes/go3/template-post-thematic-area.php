@@ -1,7 +1,7 @@
 
 <div class="content">
 	<div class="filters">
-		<h1 class="page-title"><?php if('pt_films' == get_post_type()): echo'Películas'; elseif('pt_tvseries' == get_post_type()): echo'Series'; endif; ?></h1>
+		<h1 class="page-title"><?php if('pt_films' == get_post_type()): echo'Cine'; elseif('pt_tvseries' == get_post_type()): echo'Series'; endif; ?></h1>
 		<span class="breadcrumb"><span class="filter-result-genre">Todos los géneros</span>, <span class="filter-result-sort">Mas relevante</span> (<span class="filter-result-counter">0</span>)</span>
 
 		<div class="filters-area">
