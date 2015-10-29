@@ -223,7 +223,7 @@
 
 				</section>
 
-				<section class="section-tv">          
+				<section class="section-tv <?php if(is_page(1916)){ echo'home-2'; } ?>">          
 					<div class="section-container">
 						<ul class="picks">
 							<li>

@@ -2,7 +2,7 @@
 
 get_header();
 
-if (is_home() || is_page(2))
+if (is_home() || is_page(2) || is_page(1916))
 {
 	get_template_part( 'template', 'page-home' );
 }
