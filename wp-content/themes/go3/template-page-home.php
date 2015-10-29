@@ -87,7 +87,7 @@
 						<a class="thematic-link" href="<?php echo get_site_url(); ?>/peliculas">
 							<img src="<?php echo get_site_url(); ?>/wp-content/themes/go3/images/icon_ticket.png" alt="icon ticket"/>
 							<h1 class="thematic-title">Taquilla</h1>
-							<p class="thematic-slogan">Contenidos especialmente seleccionados para ti</p>
+							<p class="thematic-slogan">Disfruta los últimos estrenos de pago</p>
 							<span class="link">Ir a Taquilla</span>
 						</a>
 					</div>
